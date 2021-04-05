@@ -16,5 +16,14 @@ return [
         'users-2fa' => false,
         'users-oauth' => false,
     ],
+    'block_editor' => [
+        'blocks' => [
+            'event_info' => [
+                'title' => 'Event Info',
+                'icon' => 'text',
+                'component' => 'a17-block-event_info',
+            ],
+        ]
+]
 
 ];

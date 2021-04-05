@@ -149,6 +149,7 @@
       <path value="$PROJECT_DIR$/vendor/symfony/polyfill-intl-idn" />
       <path value="$PROJECT_DIR$/vendor/league/flysystem-azure-blob-storage" />
       <path value="$PROJECT_DIR$/vendor/symfony/routing" />
+      <path value="$PROJECT_DIR$/vendor/nikaia/translation-sheet" />
     </include_path>
   </component>
   <component name="PhpUnit">

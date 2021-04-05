@@ -18,10 +18,6 @@ class Page extends Model implements Sortable
 
     protected $fillable = [
         'published',
-        'title',
-        'content',
-        'position',
-        'is_homepage'
     ];
 
     public $translatedAttributes = [

@@ -3,7 +3,9 @@
 <head>
     @include('includes.head')
 </head>
-<body class="page">
+<body class="
+    @yield('body-classes')
+">
 
     @include('includes.header')
 
@@ -24,6 +26,19 @@
     <script type='text/javascript' src={{asset('js/slick.min.js')}}></script>
     <script type='text/javascript' src={{asset('js/jquery.easing.1.3.js')}}></script>
     <script type='text/javascript' src={{asset('js/main.js')}}></script>
+
+    <script>
+        $('.language').on('show.bs.modal', function (e) {
+
+            $roleID =  $(e.relatedTarget).attr('data-id');
+
+            //ajax call
+            $.ajax({
+                url: "set_session.php",
+                data: { role: $roleID }
+            });
+        });
+    </script>
 </body>
 </html>
 

@@ -18,9 +18,6 @@ class Placemark extends Model implements Sortable
 
     protected $fillable = [
         'published',
-        'title',
-        'content',
-        'position',
     ];
 
     public $translatedAttributes = [

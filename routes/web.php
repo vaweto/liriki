@@ -12,5 +12,10 @@ use Illuminate\Support\Facades\Route;
 | contains the "web" middleware group. Now create something great!
 |
 */
+Route::name('lang.switch')->get('lang/{lang}', 'LanguageController@switchLang');
 
-Route::get('/', 'HomeController@index');
+
+Route::name('homepage')->get('/', 'HomeController@index');
+
+
+Route::name('event.show')->get('events/{slug}', 'EventController@show');

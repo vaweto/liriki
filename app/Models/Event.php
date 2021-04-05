@@ -6,24 +6,23 @@ use A17\Twill\Models\Behaviors\HasTranslation;
 use A17\Twill\Models\Behaviors\HasSlug;
 use A17\Twill\Models\Behaviors\HasMedias;
 use A17\Twill\Models\Behaviors\HasFiles;
+use A17\Twill\Models\Behaviors\HasBlocks;
 use A17\Twill\Models\Model;
 
 class Event extends Model
 {
-    use HasTranslation, HasSlug, HasMedias, HasFiles;
+    use HasTranslation, HasSlug, HasMedias, HasFiles, HasBlocks;
 
     protected $fillable = [
         'published',
-        'title',
-        'content',
-        'subtitle',
         'category',
     ];
 
     public $translatedAttributes = [
         'title',
-        'content',
         'active',
+        'content',
+        'subtitle',
     ];
 
     public $slugAttributes = [
@@ -32,30 +31,16 @@ class Event extends Model
 
     public $mediasParams = [
         'cover' => [
-            'desktop' => [
-                [
-                    'name' => 'desktop',
-                    'ratio' => 16 / 9,
-                ],
-            ],
-            'mobile' => [
-                [
-                    'name' => 'mobile',
-                    'ratio' => 1,
-                ],
-            ],
-            'flexible' => [
-                [
-                    'name' => 'free',
-                    'ratio' => 0,
-                ],
+            'landscape' => [
                 [
                     'name' => 'landscape',
-                    'ratio' => 16 / 9,
+                    'ratio' => 560 / 360,
                 ],
+            ],
+            'portrait' => [
                 [
                     'name' => 'portrait',
-                    'ratio' => 3 / 5,
+                    'ratio' => 360 / 560,
                 ],
             ],
         ],

@@ -5,10 +5,11 @@ namespace App\Http\Controllers;
 
 
 use App\Repositories\EventRepository;
+use Illuminate\Support\Facades\App;
+use Illuminate\Support\Facades\Session;
 
-class HomeController extends Controller
+class EventController extends Controller
 {
-
     /**
      * @var \App\Repositories\EventRepository
      */
@@ -23,10 +24,13 @@ class HomeController extends Controller
         $this->eventRepository = $eventRepository;
     }
 
-    public function index()
+    public function show($slug)
     {
-        return view('content.home',[
-            'events' => $this->eventRepository->allEvents(10)
-        ]);
+        $event = $this->eventRepository->forSlug($slug);
+
+        abort_unless($event, 404, 'Events');
+
+        return view('content.event', compact('event') );
     }
+
 }

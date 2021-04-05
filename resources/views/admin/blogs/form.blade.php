@@ -9,6 +9,7 @@
         ])
 
         @formField('wysiwyg', [
+        'translated' => true,
         'name' => 'content',
         'label' => 'Content',
         'toolbarOptions' => [

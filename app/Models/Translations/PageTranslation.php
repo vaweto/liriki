@@ -8,4 +8,8 @@ use App\Models\Page;
 class PageTranslation extends Model
 {
     protected $baseModuleModel = Page::class;
+
+    protected $fillable = [
+
+    ];
 }

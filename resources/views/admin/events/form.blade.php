@@ -2,6 +2,7 @@
 
 @section('contentFields')
     @formField('input', [
+        'translated' => true,
         'name' => 'subtitle',
         'label' => 'Subtitle',
         'maxlength' => 100,
@@ -39,13 +40,14 @@
                 'label' => 'Booklover\'s Point'
             ],
             [
-            'value' => 'music_bus',
-            'label' => 'Μουσικό Λεωφορείο'
+                'value' => 'music_bus',
+                'label' => 'Μουσικό Λεωφορείο'
             ]
         ]
     ])
 
     @formField('wysiwyg', [
+        'translated' => true,
         'name' => 'content',
         'label' => 'Content',
         'toolbarOptions' => [
@@ -71,6 +73,10 @@
         'maxlength' => 200,
         'editSource' => true,
         'note' => 'Hint message`',
+    ])
+
+    @formField('block_editor', [
+        'blocks' => ['event_info']
     ])
 
     @formField('tags', [

@@ -35,9 +35,14 @@
 </div>
 
 <div class="header-holder center-relative relative content-1140">
+
+    <div class="switch-language absolute">
+        <a class="dropdown-item" href="{{ route('lang.switch', 'el') }}">ελ</a>
+        <a class="dropdown-item" href="{{ route('lang.switch', 'en') }}">en</a>
+    </div>
     <div class="header-logo center-text">
         <a href="index.html">
-            <img src="images/logo_@x2.png" alt="Opta">
+            <img src={{asset("images/logo_@x2.png")}} alt="Opta">
         </a>
     </div>
 

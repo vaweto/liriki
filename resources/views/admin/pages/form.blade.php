@@ -1,10 +1,6 @@
 @extends('twill::layouts.form')
 
 @section('contentFields')
-    @formField('checkbox', [
-        'name' => 'is_homepage',
-        'label' => 'Homepage'
-    ])
 
     @formField('medias', [
         'name' => 'cover',
@@ -14,6 +10,7 @@
     ])
 
     @formField('wysiwyg', [
+        'translated' => true,
         'name' => 'content',
         'label' => 'Content',
         'toolbarOptions' => [

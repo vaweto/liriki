@@ -1,7 +1,7 @@
 <div class="footer-content content-1140 center-relative">
     <div class="footer-logo">
         <a href="index.html">
-            <img src="images/footer_logo_@x2.png" alt="Opta">
+            <img src={{asset("images/footer_logo_@x2.png")}} alt="Opta">
         </a>
     </div>
     <div class="footer-text">

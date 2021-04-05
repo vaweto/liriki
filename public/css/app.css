@@ -166,6 +166,14 @@ body a:hover
     z-index: 1;
 }
 
+.switch-language
+{
+    height: 21px;
+    top: 104px;
+    left: 0;
+    z-index: 1;
+}
+
 #toggle:hover
 {
     cursor: pointer;
@@ -1899,6 +1907,12 @@ li.social-footer a:first-child
     {
         top: 71px;
         right: 40px;
+    }
+
+    .switch-language
+    {
+        top: 71px;
+        left: 40px;
     }
 
     .page h1.entry-title

@@ -17,6 +17,12 @@ Route::name('lang.switch')->get('lang/{lang}', 'LanguageController@switchLang');
 
 Route::name('homepage')->get('/', 'HomeController@index');
 
-Route::name('page.show')->get('/{slug}', 'PageController@show');
-
 Route::name('event.show')->get('events/{slug}', 'EventController@show');
+
+Route::name('placemark.show')->get('placemarks/{slug}', 'PlacemarkController@show');
+
+Route::name('blog.index')->get('blog', 'BlogController@index');
+Route::name('blog.show')->get('blog/{slug}', 'BlogController@show');
+
+
+Route::name('page.show')->get('/{slug}', 'PageController@show');

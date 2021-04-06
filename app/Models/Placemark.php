@@ -59,5 +59,13 @@ class Placemark extends Model implements Sortable
                 ],
             ],
         ],
+        'logo' => [
+            'flexible' => [
+                [
+                    'name' => 'free',
+                    'ratio' => 0,
+                ],
+            ],
+        ],
     ];
 }

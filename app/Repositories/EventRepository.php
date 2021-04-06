@@ -27,6 +27,7 @@ class EventRepository extends ModuleRepository
     {
         return $this->model
             ->published()
+            ->WithActiveTranslations()
             ->orderBy('created_at')
             ->limit($limit)
             ->get();

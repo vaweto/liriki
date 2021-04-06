@@ -19,4 +19,13 @@ class BlogRepository extends ModuleRepository
     {
         $this->model = $model;
     }
+
+    public function getPaginatedBlogs()
+    {
+        return $this->model
+            ->published()
+            ->WithActiveTranslations()
+            ->orderBy('created_at')
+            ->paginate(5);
+    }
 }

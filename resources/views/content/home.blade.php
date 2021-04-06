@@ -1,5 +1,4 @@
 @extends('layout')
-
 @section('seo-metas')
     <title>{{$settings->byKey('site_title')}}</title>
     <meta name="description" content="{{$settings->byKey('site_desc')}}"/>
@@ -11,10 +10,13 @@
 @stop
 
 @section('body-classes')
-    page
+    page homePage
     @stop
 
 @section('content')
+    <div class="loader">
+        <img src="{{asset('images/tenor.gif')}}" >
+    </div>
     <div class="content-1140 header-content center-relative block">
         <h1 class="entry-title">
             {{$settings->byKey('home_text')}}

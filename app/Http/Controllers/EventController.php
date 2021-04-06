@@ -25,6 +25,13 @@ class EventController extends Controller
         $this->eventRepository = $eventRepository;
     }
 
+    public function index()
+    {
+        return view('content.event_index',[
+            'events' => $this->eventRepository->allEvents()
+        ]);
+    }
+
     public function show($slug)
     {
         $event = $this->eventRepository->forSlug($slug);

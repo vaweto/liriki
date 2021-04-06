@@ -30,6 +30,7 @@ jQuery(document).on('ready', function () {
 
 jQuery(window).on('load', function () {
 
+
     //Set menu
     jQuery('.main-menu').smartmenus({
         subMenusSubOffsetX: 1,
@@ -134,7 +135,14 @@ jQuery(window).on('load', function () {
     // Animate the elemnt if is allready visible on load
     animateElement();
 
+    if(jQuery('body').hasClass( "homePage" )) {
+        setTimeout( function (){
+            jQuery('.loader').fadeOut('slow');
+        },2000);
+    }
+
     jQuery('.doc-loader').fadeOut('slow');
+
 
 });
 
@@ -197,11 +205,11 @@ var multiClickFunctionStop = function (e) {
 };
 
 var portfolioLoadMore = function (e) {
-    jQuery('.more-posts-portfolio').on("click", function () {        
+    jQuery('.more-posts-portfolio').on("click", function () {
         jQuery('#portfolio').find(".hidden").slice(0,4).removeClass("hidden").addClass("animate loaded");
         jQuery('.portfolio-text-holder').each(function () {
             jQuery(this).find('.portfolio-info').css('margin-top', (jQuery(this).innerHeight() - jQuery(this).find('.portfolio-info').innerHeight()) * 0.5);
-        });                
+        });
         animateElement();
         if (!jQuery('#portfolio').find(".hidden").length)
         {

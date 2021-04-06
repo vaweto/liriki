@@ -9,7 +9,8 @@
 
     @include('includes.header')
 
-    <div class="doc-loader"></div>
+    <div class="doc-loader">
+    </div>
 
     @yield('content')
 

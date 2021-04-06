@@ -12,6 +12,7 @@
 <link rel="stylesheet" type="text/css" href={{asset('css/slick.css')}} />
 <link rel="stylesheet" type="text/css" href={{asset('css/common.css')}} />
 <link rel="stylesheet" type="text/css" href={{asset('css/sm-clean.css')}} />
+<link rel="stylesheet" type="text/css" href={{asset('css/widget.css')}} />
 <link href={{asset('css/app.css')}} rel="stylesheet">
 
 <!--[if lt IE 9]>

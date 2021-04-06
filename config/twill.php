@@ -44,7 +44,26 @@ return [
                 'component' => 'a17-block-youtube_link',
             ],
         ],
-
-    ]
+    ],
+    'settings' => [
+        'crops' => [
+            'cover' => [
+                'social' => [
+                    [
+                        'name' => 'social',
+                        'ratio' => 2 / 1,
+                    ],
+                ]
+            ],
+            'logo' => [
+                'logo' => [
+                    [
+                        'name' => 'logo',
+                        'ratio' => 0,
+                    ],
+                ]
+            ],
+        ],
+    ],
 
 ];

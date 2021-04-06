@@ -41,8 +41,8 @@
         <a class="dropdown-item" href="{{ route('lang.switch', 'en') }}">en</a>
     </div>
     <div class="header-logo center-text">
-        <a href="index.html">
-            <img src={{asset("images/logo_@x2.png")}} alt="Opta">
+        <a href="{{url('/')}}">
+            <img src={{$logo}} alt="Opta">
         </a>
     </div>
 

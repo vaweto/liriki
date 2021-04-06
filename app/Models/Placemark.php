@@ -11,10 +11,13 @@ use A17\Twill\Models\Behaviors\HasRevisions;
 use A17\Twill\Models\Behaviors\HasPosition;
 use A17\Twill\Models\Behaviors\Sortable;
 use A17\Twill\Models\Model;
+use App\Traits\HasUrl;
 
 class Placemark extends Model implements Sortable
 {
-    use HasBlocks, HasTranslation, HasSlug, HasMedias, HasFiles, HasRevisions, HasPosition;
+    use HasBlocks, HasTranslation, HasSlug, HasMedias, HasFiles, HasRevisions, HasPosition, HasUrl;
+
+    protected $path = 'placemarks';
 
     protected $fillable = [
         'published',
@@ -58,6 +61,12 @@ class Placemark extends Model implements Sortable
                     'ratio' => 3 / 5,
                 ],
             ],
+            'social' => [
+                [
+                    'name' => 'social',
+                    'ratio' => 2 / 1,
+                ],
+            ]
         ],
         'logo' => [
             'flexible' => [

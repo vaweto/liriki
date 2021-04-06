@@ -8,10 +8,13 @@ use A17\Twill\Models\Behaviors\HasMedias;
 use A17\Twill\Models\Behaviors\HasFiles;
 use A17\Twill\Models\Behaviors\HasBlocks;
 use A17\Twill\Models\Model;
+use App\Traits\HasUrl;
 
 class Event extends Model
 {
-    use HasTranslation, HasSlug, HasMedias, HasFiles, HasBlocks;
+    use HasTranslation, HasSlug, HasMedias, HasFiles, HasBlocks, HasUrl;
+
+    protected $path = 'events';
 
     protected $fillable = [
         'published',
@@ -40,9 +43,15 @@ class Event extends Model
             'portrait' => [
                 [
                     'name' => 'portrait',
-                    'ratio' => 360 / 560,
+                    'ratio' => 360 / 440,
                 ],
             ],
+            'social' => [
+                [
+                    'name' => 'social',
+                    'ratio' => 2 / 1,
+                ],
+            ]
         ],
     ];
 }

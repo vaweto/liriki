@@ -1,4 +1,9 @@
 @extends('layout')
+@section('seo-metas')
+    @include('includes.basic_seo',['model' => $placemark]);
+
+@stop
+
 @section('body-classes')
     single single-portfolio
 @stop

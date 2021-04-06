@@ -1,4 +1,9 @@
 @extends('layout')
+
+@section('seo-metas')
+    <title>{{$settings->byKey('site_title')}}</title>
+@stop
+
 @section('body-classes')
    page
 @stop

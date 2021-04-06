@@ -1,4 +1,15 @@
 @extends('layout')
+
+@section('seo-metas')
+    <title>{{$settings->byKey('site_title')}}</title>
+    <meta name="description" content="{{$settings->byKey('site_desc')}}"/>
+    <meta property="og:url"                content="{{url('/')}}" />
+    <meta property="og:title"              content="{{$settings->byKey('site_title')}}" />
+    <meta property="og:description"        content="{{$settings->byKey('site_desc')}}" />
+    <meta property="og:image"              content="{{ $absoluteUrl . $seoImage }}" />
+
+@stop
+
 @section('body-classes')
     page
     @stop
@@ -6,9 +17,9 @@
 @section('content')
     <div class="content-1140 header-content center-relative block">
         <h1 class="entry-title">
-            Art studio from <a href="about.html">New York</a> passionate about creativity and crafting things since 1963.
+            {{$settings->byKey('home_text')}}
         </h1>
-        <p class="page-desc">PETER WALL + COCO BASIC</p>
+        <p class="page-desc">{{$settings->byKey('site_title')}}</p>
     </div>
 
     <div id="content" class="site-content">
@@ -24,7 +35,7 @@
                         <div class="portfolio-info">
                             <a class="portfolio-text" href="/events/{{$event->slug}}">{{$event->title}}</a>
                             <p class="portfolio-category">
-                                <a href="#">{{trans($event->category)}}</a>
+                                <a href="#">{{__($event->category)}}</a>
                             </p>
                             <p class="portfolio-arrow">
                                 <a href="/events/{{$event->slug}}">
@@ -45,7 +56,7 @@
                         <div class="portfolio-info">
                             <a class="portfolio-text" href="/events/{{$event->slug}}">{{$event->title}}</a>
                             <p class="portfolio-category">
-                                <a href="#">{{trans($event->category)}}</a>
+                                <a href="#">{{__($event->category)}}</a>
                             </p>
                             <p class="portfolio-arrow">
                                 <a href="/events/{{$event->slug}}">

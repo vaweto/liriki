@@ -21,6 +21,7 @@ class EventController extends Controller
      * @param \App\Repositories\EventRepository $eventRepository
      */
     public function __construct(EventRepository $eventRepository) {
+        parent::__construct();
         $this->eventRepository = $eventRepository;
     }
 

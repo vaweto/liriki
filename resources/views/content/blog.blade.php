@@ -1,4 +1,9 @@
 @extends('layout')
+@section('seo-metas')
+    @include('includes.basic_seo',['model' => $blog]);
+
+@stop
+
 @section('body-classes')
     single
 @stop

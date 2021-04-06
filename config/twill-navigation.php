@@ -16,7 +16,19 @@ return [
     'placemarks' => [
         'title' => 'Placemarks',
         'module' => true
-    ]
+    ],
+    'settings' => [
+        'title' => 'Settings',
+        'route' => 'admin.settings',
+        'params' => ['section' => 'site_settings'],
+        'primary_navigation' => [
+            'site_settings' => [
+                'title' => 'Site Settings',
+                'route' => 'admin.settings',
+                'params' => ['section' => 'site_settings']
+            ],
+        ]
+    ],
 
 
 

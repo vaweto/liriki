@@ -147,7 +147,6 @@ body a:hover
 
 .header-logo img
 {
-    width: 70px;
     -webkit-transition: opacity 0.3s linear;
     transition: opacity 0.3s linear;
 }

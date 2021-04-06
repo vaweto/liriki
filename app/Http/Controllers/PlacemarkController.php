@@ -21,6 +21,7 @@ class PlacemarkController extends Controller
      */
     public function __construct(PlacemarkRepository $repository)
     {
+        parent::__construct();
         $this->repository = $repository;
     }
 

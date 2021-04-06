@@ -21,7 +21,7 @@ class Language
             App::setLocale(Session()->get('applocale'));
         }
         else { // This is optional as Laravel will automatically set the fallback language if there is none specified
-            App::setLocale(config('app.fallback_locale'));
+            App::setLocale('el');
         }
         return $next($request);
     }

@@ -17,5 +17,6 @@ Route::name('lang.switch')->get('lang/{lang}', 'LanguageController@switchLang');
 
 Route::name('homepage')->get('/', 'HomeController@index');
 
+Route::name('page.show')->get('/{slug}', 'PageController@show');
 
 Route::name('event.show')->get('events/{slug}', 'EventController@show');

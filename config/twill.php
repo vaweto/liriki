@@ -65,5 +65,6 @@ return [
             ],
         ],
     ],
+    'files' => ['video_file'],
 
 ];

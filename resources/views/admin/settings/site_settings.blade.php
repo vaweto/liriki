@@ -35,4 +35,6 @@
         'note' => 'Also used in listings',
         'fieldNote' => 'Minimum image width: 1500px'
     ])
+
+
 @stop

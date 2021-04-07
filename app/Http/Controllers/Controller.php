@@ -18,12 +18,17 @@ class Controller extends BaseController
         $cover = \A17\Twill\Models\Setting::where('key','cover')->first();
         $seoImage = $cover->image('cover','social');
 
-        $cover = \A17\Twill\Models\Setting::where('key','logo')->first();
-        $logo = $cover->image('logo','logo');
+        $logo = \A17\Twill\Models\Setting::where('key','logo')->first();
+        $logo = $logo->image('logo','logo');
+
+//        $video = \A17\Twill\Models\Setting::where('key','video')->first();
+//
+//        $video = $video->imageVideo('video','video');
 
         View::share ( 'settings', app(\A17\Twill\Repositories\SettingRepository::class) );
         View::share ( 'seoImage', $seoImage );
         View::share ( 'logo', $logo );
+       // View::share ( 'video', $video );
         View::share ( 'absoluteUrl', url('/') );
     }
 }

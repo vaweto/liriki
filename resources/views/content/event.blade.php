@@ -1,6 +1,6 @@
 @extends('layout')
 @section('seo-metas')
-    @include('includes.basic_seo',['model' => $event]);
+    @include('includes.basic_seo',['model' => $event])
 
 @stop
 

@@ -45,6 +45,11 @@ body a:hover
     color: #d7b065;
 }
 
+::-moz-selection
+{
+    background-color: #fae3b5;
+}
+
 ::selection
 {
     background-color: #fae3b5;
@@ -91,22 +96,17 @@ body a:hover
 {
     opacity: 0;
     transition: .3s ease-in;
-    -ms-transform: translate(0px,70px);
-    -webkit-transform: translate(0px,70px);
     transform: translate(0px,70px);
 }
 
 .animate.show-it
 {
     opacity: 1;
-    -ms-transform: translate(0px,0px);
-    -webkit-transform: translate(0px,0px);
     transform: translate(0px,0px);
 }
 
 .wait-03s
 {
-    -webkit-transition-delay: 0.3s;
     transition-delay: 0.3s;
 }
 
@@ -143,6 +143,8 @@ body a:hover
     1.1 Global Header Logo/Menu CSS
 ====================================== */
 
+
+
 .header-holder
 {
     width: 1140px;
@@ -166,7 +168,6 @@ body a:hover
 
 .header-logo img
 {
-    -webkit-transition: opacity 0.3s linear;
     transition: opacity 0.3s linear;
 }
 
@@ -206,15 +207,12 @@ body a:hover
 
 #toggle .second-menu-line
 {
-    -webkit-transition: -webkit-transform 0.3s ease;
     transition: transform 0.3s ease;
-    -webkit-transform: translate3d(10px,0,0);
     transform: translate3d(10px,0,0);
 }
 
 #toggle:hover .second-menu-line
 {
-    -webkit-transform: translate3d(0,0,0);
     transform: translate3d(0,0,0);
 }
 
@@ -237,7 +235,7 @@ body a:hover
     visibility: hidden;
     opacity: 0;
     transition: visibility 0s linear 0.5s, opacity 0.7s ease;
-    cursor: url(../images/close.png), auto;
+    cursor: url(/images/close.png), auto;
 }
 
 .menu-wraper.show
@@ -695,7 +693,6 @@ body a:hover
     height: 0;
     border-left: 2px solid;
     border-right: 2px solid;
-    -webkit-transition: all ease 0.3s 0.15s;
     transition: all ease 0.3s 0.15s;
 }
 
@@ -708,14 +705,12 @@ body a:hover
     width: 0;
     height: 100%;
     border-top: 2px solid;
-    -webkit-transition: all ease 0.3s;
     transition: all ease 0.3s;
 }
 
 .more-posts-index:hover:before
 {
     height: 100%;
-    -webkit-transition: all ease 0.3s;
     transition: all ease 0.3s;
 }
 
@@ -723,7 +718,6 @@ body a:hover
 {
     left: 0;
     width: 100%;
-    -webkit-transition: all ease 0.3s 0.15s;
     transition: all ease 0.3s 0.15s;
 }
 
@@ -1137,6 +1131,12 @@ body a:hover
     max-width: 43%;
 }
 
+video
+{
+    margin: 3%;
+    width: 94%;
+}
+
 .grid-item.hidden
 {
     display: none !important;
@@ -1246,7 +1246,6 @@ body a:hover
     height: 0;
     border-left: 2px solid;
     border-right: 2px solid;
-    -webkit-transition: all ease 0.3s 0.15s;
     transition: all ease 0.3s 0.15s;
 }
 
@@ -1259,14 +1258,12 @@ body a:hover
     width: 0;
     height: 100%;
     border-top: 2px solid;
-    -webkit-transition: all ease 0.3s;
     transition: all ease 0.3s;
 }
 
 .more-posts-portfolio:hover:before
 {
     height: 100%;
-    -webkit-transition: all ease 0.3s;
     transition: all ease 0.3s;
 }
 
@@ -1274,7 +1271,6 @@ body a:hover
 {
     left: 0;
     width: 100%;
-    -webkit-transition: all ease 0.3s 0.15s;
     transition: all ease 0.3s 0.15s;
 }
 
@@ -1525,7 +1521,6 @@ body a:hover
 
 .contact-form textarea
 {
-    -webkit-transition: all 0.3s linear;
     transition: all 0.3s linear;
     padding-top: 8px;
     overflow: hidden;
@@ -1573,7 +1568,6 @@ body a:hover
     width: 0;
     height: 100%;
     border-top: 2px solid;
-    -webkit-transition: all ease 0.3s;
     transition: all ease 0.3s;
 }
 
@@ -1586,14 +1580,12 @@ body a:hover
     height: 0;
     border-left: 2px solid;
     border-right: 2px solid;
-    -webkit-transition: all ease 0.3s 0.15s;
     transition: all ease 0.3s 0.15s;
 }
 
 .contact-submit-holder:hover:before
 {
     height: 100%;
-    -webkit-transition: all ease 0.3s;
     transition: all ease 0.3s;
 }
 
@@ -1601,7 +1593,6 @@ body a:hover
 {
     left: 0;
     width: 100%;
-    -webkit-transition: all ease 0.3s 0.15s;
     transition: all ease 0.3s 0.15s;
 }
 
@@ -1848,6 +1839,14 @@ li.social-footer a:first-child
         left: calc(55% - 1px)
     }
 
+}
+
+@media screen and (min-width: 1450px) {
+
+    video {
+        width: 100%;
+        position: relative;
+    }
 }
 
 @media screen and (max-width: 1450px) {
@@ -2312,3 +2311,4 @@ li.social-footer a:first-child
     width: 100%;
     height: 100%;
 }
+

@@ -1,7 +1,7 @@
 @extends('layout')
 
 @section('seo-metas')
-    @include('includes.basic_seo',['model' => $page]);
+    @include('includes.basic_seo',['model' => $page])
 
 @stop
 

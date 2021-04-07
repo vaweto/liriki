@@ -29,6 +29,10 @@ return [
             ],
         ]
     ],
+    'customPage' => [
+        'title' => 'Menus',
+        'route' => 'admin.menuPage',
+    ],
 
 
 

@@ -24,6 +24,13 @@
         <p class="page-desc">{{$settings->byKey('site_title')}}</p>
     </div>
 
+    <div style="text-align: center" class="grid center-relative block">
+        <video id="vid" autoplay muted loop>
+            <source src="{{asset('assets/public/Lirikos_notos_intro_video.mp4')}}" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div>
+
     <div id="content" class="site-content">
         <ul class="grid" id="portfolio">
             @foreach($events  as $key => $event)
@@ -78,5 +85,4 @@
         </div>
         <div class="clear"></div>
     </div>
-
 @stop

@@ -43,6 +43,31 @@ return [
                 'icon' => 'video',
                 'component' => 'a17-block-youtube_link',
             ],
+            'custom_menu_link' => [
+                'title' => 'custom menu link',
+                'icon' => 'text',
+                'component' => 'a17-block-custom_menu_link',
+            ],
+            'menu_with_nested_pages' => [
+                'title' => 'menu with nested pages',
+                'icon' => 'text',
+                'component' => 'a17-block-menu_with_nested_pages',
+            ],
+            'single_page_link' => [
+                'title' => 'single page link',
+                'icon' => 'text',
+                'component' => 'a17-block-single_page_link',
+            ],
+            'placemarks_menu' => [
+                'title' => 'placemarks menu',
+                'icon' => 'text',
+                'component' => 'a17-block-placemarks_menu',
+            ],
+            'events_menu' => [
+                'title' => 'events menu',
+                'icon' => 'text',
+                'component' => 'a17-block-events_menu',
+            ],
         ],
     ],
     'settings' => [

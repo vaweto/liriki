@@ -19,13 +19,13 @@
     </div>
     <div class="content-1140 header-content center-relative block">
         <h1 class="entry-title">
-            {{$settings->byKey('home_text')}}
+            {!! $settings->byKey('home_text') !!}}
         </h1>
-        <p class="page-desc">{{$settings->byKey('site_title')}}</p>
+        <p class="page-desc">{{$settings->byKey('sub_text')}}</p>
     </div>
 
     <div style="text-align: center" class="grid center-relative block">
-        <video id="vid" autoplay muted loop>
+        <video id="vid" autoplay muted loop controls>
             <source src="{{asset('assets/public/Lirikos_notos_intro_video.mp4')}}" type="video/mp4">
             Your browser does not support the video tag.
         </video>
@@ -34,11 +34,11 @@
     <div id="content" class="site-content">
         <ul class="grid" id="portfolio">
             @foreach($events  as $key => $event)
-                @if($key % 2 === 0)
+                @if($key === 0 || $key === 3 || $key === 4)
                     <li class="grid-item element-item animate">
                 <div class="item-wrapper">
                     <a href="/events/{{$event->slug}}">
-                        <img src="{{$event->image('cover','portrait')}}" alt="" />
+                        <img style="max-width: 360px"  src="{{$event->image('cover','portrait')}}" alt="" />
                     </a>
                     <div class="portfolio-text-holder">
                         <div class="portfolio-info">

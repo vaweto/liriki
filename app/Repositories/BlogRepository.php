@@ -26,6 +26,6 @@ class BlogRepository extends ModuleRepository
             ->published()
             ->WithActiveTranslations()
             ->orderBy('created_at')
-            ->paginate(5);
+            ->paginate(6);
     }
 }

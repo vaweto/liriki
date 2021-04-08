@@ -12,6 +12,7 @@ class LanguageController extends Controller
     {
         if ($lang ===  'el' || $lang === 'en') {
             Session::put('applocale', $lang);
+            Session::put('locale', $lang);
         }
         return Redirect::back();
     }

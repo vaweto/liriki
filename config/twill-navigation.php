@@ -17,6 +17,10 @@ return [
         'title' => 'Placemarks',
         'module' => true
     ],
+    'menus' => [
+        'title' => 'Menus',
+        'module' => true
+    ],
     'settings' => [
         'title' => 'Settings',
         'route' => 'admin.settings',
@@ -28,11 +32,7 @@ return [
                 'params' => ['section' => 'site_settings']
             ],
         ]
-    ],
-    'customPage' => [
-        'title' => 'Menus',
-        'route' => 'admin.menuPage',
-    ],
+    ]
 
 
 

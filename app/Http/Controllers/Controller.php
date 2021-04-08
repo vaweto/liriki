@@ -2,6 +2,8 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Menu;
+use App\Repositories\MenuRepository;
 use Illuminate\Foundation\Auth\Access\AuthorizesRequests;
 use Illuminate\Foundation\Bus\DispatchesJobs;
 use Illuminate\Foundation\Validation\ValidatesRequests;
@@ -21,13 +23,15 @@ class Controller extends BaseController
         $logo = \A17\Twill\Models\Setting::where('key','logo')->first();
         $logo = $logo->image('logo','logo');
 
-//        $video = \A17\Twill\Models\Setting::where('key','video')->first();
-//
-//        $video = $video->imageVideo('video','video');
+        $menu = new Menu();
+        $menuRepo = new MenuRepository($menu);
+
+        $headerMenu = $menuRepo->forSlug('header')->first();
 
         View::share ( 'settings', app(\A17\Twill\Repositories\SettingRepository::class) );
         View::share ( 'seoImage', $seoImage );
         View::share ( 'logo', $logo );
+        View::share ( 'headerMenu', $headerMenu );
        // View::share ( 'video', $video );
         View::share ( 'absoluteUrl', url('/') );
     }

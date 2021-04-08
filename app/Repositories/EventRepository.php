@@ -32,4 +32,31 @@ class EventRepository extends ModuleRepository
             ->limit($limit)
             ->get();
     }
+
+    /**
+     * @param int $limit
+     */
+    public function paginatedEvents($limit = -1)
+    {
+        return $this->model
+            ->published()
+            ->WithActiveTranslations()
+            ->orderBy('created_at')
+            ->paginate(5);
+    }
+
+
+    /**
+     * @param string $slug
+     */
+    public function byCategory($slug)
+    {
+        return $this->model
+            ->published()
+            ->WithActiveTranslations()
+            ->orderBy('created_at')
+            ->where('category', $slug)
+            ->paginate(5);
+
+    }
 }

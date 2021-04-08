@@ -19,4 +19,17 @@ class PlacemarkRepository extends ModuleRepository
     {
         $this->model = $model;
     }
+
+    /**
+     * @param int $limit
+     */
+    public function all($limit = -1)
+    {
+        return $this->model
+            ->published()
+            ->WithActiveTranslations()
+            ->orderBy('created_at')
+            ->limit($limit)
+            ->get();
+    }
 }

@@ -43,7 +43,7 @@ class Event extends Model
             'portrait' => [
                 [
                     'name' => 'portrait',
-                    'ratio' => 360 / 440,
+                    'ratio' => 360 / 560,
                 ],
             ],
             'social' => [

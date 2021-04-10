@@ -43,7 +43,7 @@ class HomeController extends Controller
         foreach ($categories as $category) {
             $image = \A17\Twill\Models\Setting::where('key',$category . '_image')->first();
 
-            if( $image->medias->count() > 0 ) {
+            if(!is_null($image) && $image->medias->count() > 0 ) {
                 $categoriesImages[$key]['category'] = $category;
                 $categoriesImages[$key]['image'] = $image;
                 $key++;

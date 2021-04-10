@@ -6,7 +6,8 @@
         'name' => 'cover',
         'label' => 'Cover image',
         'note' => 'Also used in listings',
-        'fieldNote' => 'Minimum image width: 1500px'
+        'fieldNote' => 'Minimum image width: 1500px',
+    'required' => true,
     ])
 
     @formField('wysiwyg', [

@@ -18,9 +18,20 @@
     <div style="background-color: white" class="content-1140 center-relative">
 
         <div class="external-logos">
-            <img src={{$footerImg1}} alt="">
-            <img src={{$footerImg2}} alt="">
-            <img src={{$footerImg3}} alt="">
+            @if(! is_null($footerImg1) )
+                <img src={{$footerImg1}} alt="">
+            @endif
+
+            @if(! is_null($footerImg1) )
+                <img src={{$footerImg2}} alt="">
+            @endif
+
+            @if(! is_null($footerImg1) )
+                <img src={{$footerImg3}} alt="">
+            @endif
+
+
+
         </div>
     </div>
     <footer class="footer">

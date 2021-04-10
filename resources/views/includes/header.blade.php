@@ -1,15 +1,19 @@
 <div class="menu-wraper center-relative">
     <div class="menu-holder">
         <div class="menu-left-part">
-            <div class="menu-left-text">
-                {!! $settings->byKey('menu_text') !!}
-            </div>
+            @if(! is_null($settings))
+                <div class="menu-left-text">
+                    {!! $settings->byKey('menu_text') !!}
+                </div>
+            @endif
         </div>
         <div class="menu-right-part">
             <nav id="header-main-menu" class="big-menu">
-                <ul class="main-menu sm sm-clean">
-                    {!! $headerMenu->renderBlocks() !!}
-                </ul>
+                @if(! is_null($headerMenu))
+                    <ul class="main-menu sm sm-clean">
+                        {!! $headerMenu->renderBlocks() !!}
+                    </ul>
+                @endif
             </nav>
             <div class="menu-portfolio-category">
                 <p class="portfolio-category">
@@ -31,9 +35,11 @@
         <a class="dropdown-item" href="{{ route('lang.switch', 'en') }}">en</a>
     </div>
     <div class="header-logo center-text">
-        <a href="{{url('/')}}">
-            <img src={{$logo}} alt="Opta">
-        </a>
+        @if(! is_null($logo))
+            <a href="{{url('/')}}">
+                <img src={{$logo}} alt="Opta">
+            </a>
+        @endif
     </div>
 
     <div class="toggle-holder absolute">

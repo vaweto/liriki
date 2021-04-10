@@ -30,7 +30,7 @@ return [
                 'title' => 'Site Settings',
                 'route' => 'admin.settings',
                 'params' => ['section' => 'site_settings']
-            ],
+            ]
         ]
     ]
 

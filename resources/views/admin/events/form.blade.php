@@ -70,7 +70,7 @@
             "clean",
         ],
         'placeholder' => 'Content Text',
-        'maxlength' => 200,
+        'maxlength' => 5000,
         'editSource' => true,
         'note' => 'Hint message`',
     ])
@@ -79,7 +79,10 @@
         'blocks' => ['event_info']
     ])
 
-    @formField('tags', [
-        'label' => 'Tags',
+    @formField('input', [
+        'name' => 'youtube',
+        'label' => 'Youtube link',
+        'maxlength' => 500,
+        'required' => true,
     ])
 @stop

@@ -292,7 +292,7 @@ body a:hover
 
 .menu-left-text
 {
-    font-family: 'Playfair Display', serif;
+    font-family: 'Open+Sans', serif;
     font-weight: 400;
     text-align: right;
     padding-right: 100px;
@@ -571,7 +571,7 @@ body a:hover
 
 .post-num
 {
-    font-family: 'Playfair Display', serif;
+    font-family: 'Roboto', serif;
     font-weight: 400;
     font-size: 100px;
     line-height: 100%;
@@ -648,7 +648,7 @@ body a:hover
 .blog-item-holder h2.entry-title
 {
     display: block;
-    font-family: 'Playfair Display', serif;
+    font-family: 'Roboto', serif;
     font-weight: 400;
     font-size: 44px;
     line-height: 44px;
@@ -733,7 +733,7 @@ body a:hover
 
 .page h1.entry-title
 {
-    font-family: 'Playfair Display', serif;
+    font-family: 'Roboto', serif;
     font-size: 47px;
     line-height: 60px;
     font-weight: 400;
@@ -779,6 +779,22 @@ body a:hover
     letter-spacing: 1px;
 }
 
+.external-logos {
+    border-top: 1px solid lightgray;
+    text-align: center;
+}
+
+.external-logos img{
+    width: 20%!important;
+    padding: 2%;
+    width: auto;
+    display: inline-block;
+}
+
+.footer-half-logo {
+    display: inline-block;
+    max-width: 150px!important;
+}
 
 /* ===================================
     4. About Page CSS
@@ -874,7 +890,7 @@ body a:hover
 
 .single h1.entry-title
 {
-    font-family: 'Playfair Display', serif;
+    font-family: 'Roboto', serif;
     font-weight: 400;
     color: #000;
     font-size: 60px;
@@ -992,7 +1008,7 @@ body a:hover
 
 .nav-previous a, .nav-next a
 {
-    font-family: 'Playfair Display', serif;
+    font-family: 'Roboto', serif;
     font-weight: 400;
     font-size: 30px;
     line-height: 35px;
@@ -1015,7 +1031,7 @@ body a:hover
 
 .archive-title h1
 {
-    font-family: 'Playfair Display', serif;
+    font-family: 'Roboto', serif;
     font-weight: 400;
     border-bottom: 2px solid;
     display: inline-block;
@@ -1052,7 +1068,7 @@ body a:hover
 
 .search .search-title h1
 {
-    font-family: 'Playfair Display', serif;
+    font-family: 'Roboto', serif;
     font-weight: 400;
     border-bottom: 2px solid;
     display: inline-block;
@@ -1083,7 +1099,7 @@ body a:hover
 
 .grid-item.quote-item
 {
-    font-family: 'Playfair Display', serif;
+    font-family: 'Roboto', serif;
     width: 400px;
     font-size: 40px;
     line-height: 60px;
@@ -1131,11 +1147,7 @@ body a:hover
     max-width: 43%;
 }
 
-video
-{
-    margin: 3%;
-    width: 94%;
-}
+
 
 .grid-item.hidden
 {
@@ -1173,7 +1185,7 @@ video
 
 .portfolio-text-holder .portfolio-text
 {
-    font-family: 'Playfair Display', serif;
+    font-family: 'Roboto', serif;
     font-size: 36px;
     line-height: 100%;
 }
@@ -1400,7 +1412,7 @@ video
 
 .carousel-slider .slick-slide .item-text a
 {
-    font-family: 'Playfair Display', serif;
+    font-family: 'Roboto', serif;
     font-weight: 400;
     font-size: 40px;
     line-height: 45px;
@@ -1425,7 +1437,7 @@ video
 
 .single-gallery h1.entry-title
 {
-    font-family: 'Playfair Display', serif;
+    font-family: 'Roboto', serif;
     font-weight: 400;
     font-size: 60px;
     line-height: 60px;
@@ -1447,7 +1459,7 @@ video
 
 .big-text
 {
-    font-family: 'Playfair Display', serif;
+    font-family: 'Roboto', serif;
     font-size: 46px;
     line-height: 50px;
     color: #000;
@@ -1613,7 +1625,7 @@ footer ul
     font-size: 16px;
     line-height: 36px;
     margin-top: 70px;
-    padding-bottom: 110px;
+    padding-bottom: 40px;
     clear: both;
     color: #fff;
     text-align: center;
@@ -1655,7 +1667,7 @@ footer ul
 
 .footer-first-line
 {
-    font-family: 'Playfair Display', serif;
+    font-family: 'Roboto', serif;
     font-size: 47px;
     line-height: 60px;
 }
@@ -1678,7 +1690,7 @@ footer ul
 
 .our-position-holder
 {
-    font-family: 'Playfair Display', serif;
+    font-family: 'Roboto', serif;
     position: relative;
     font-size: 24px;
     padding: 35px 0;
@@ -1750,7 +1762,7 @@ ul#footer-sidebar
 h4.widgettitle
 {
     font-size: 16px;
-    font-family: 'Playfair Display', serif;
+    font-family: 'Roboto', serif;
 }
 
 .tagcloud a
@@ -1817,6 +1829,24 @@ li.social-footer a:first-child
 
 
 @media screen and (max-width: 1600px) {
+
+    .header-hero {
+        position: relative;
+        max-width: 1140px!important;
+    }
+
+    .hero-video {
+        max-width: 60%;
+    }
+
+    .hero-video video {
+        max-width: 100%;
+    }
+
+    .hero-text h1{
+        font-size: 25px!important;
+        line-height:30px!important;
+    }
 
     .content-1140
     {
@@ -1886,6 +1916,33 @@ li.social-footer a:first-child
 
 @media screen and (max-width: 1220px) {
 
+    .header-hero {
+        max-width: 95%!important;
+    }
+
+    .content__title {
+        flex-direction: column!important;
+    }
+
+    .hero-text {
+        max-width: 100%!important;
+        margin-bottom: 40px;
+    }
+
+    .hero-video {
+        width: 100%!important;
+    }
+
+    .hero-video video {
+        max-width: 100%!important;
+        width: 100%!important;
+    }
+
+    .hero-text h1{
+        font-size: 25px!important;
+        line-height:30px!important;
+    }
+
     blockquote
     {
         font-size: 17px;
@@ -1914,6 +1971,40 @@ li.social-footer a:first-child
 }
 
 @media screen and (max-width: 1020px) {
+
+    .position-lat img, .position-lng img{
+        margin-bottom: 20px;
+
+    }
+
+    .header-hero {
+        max-width: 95%!important;
+    }
+
+    .content__title {
+        flex-direction: column!important;
+    }
+
+    .hero-text {
+        max-width: 100%!important;
+        width: 94%!important;
+        margin-bottom: 40px;
+    }
+
+    .hero-video {
+        width: 100%!important;
+        max-width: 94%!important;
+    }
+
+    .hero-video video {
+        max-width: 100%!important;
+        width: 100%!important;
+    }
+
+    .hero-text h1{
+        font-size: 35px!important;
+        line-height:50px!important;
+    }
 
     .header-logo
     {
@@ -2222,6 +2313,12 @@ li.social-footer a:first-child
 
 @media screen and (max-width: 805px) {
 
+    .switch-language {
+        right: 30px;
+        left: initial;
+        display: block;
+    }
+
     p.custom-text-class, p.custom-field-class
     {
         display: block !important;
@@ -2235,6 +2332,30 @@ li.social-footer a:first-child
 }
 
 @media screen and (max-width: 750px) {
+
+    .header-logo{
+        text-align: left!important;
+        width: 80%;
+        min-width: 150px;
+        min-height: 60px;
+        line-height: 0!important;
+    }
+
+    .header-logo img {
+        min-width: 150px;
+        min-height: 60px;
+    }
+
+    .toggle-holder {
+        top: 71px;
+        right: 5%;
+    }
+
+    .switch-language {
+        right: 30px;
+        left: initial;
+        display: none;
+    }
 
     .grid-item
     {
@@ -2291,8 +2412,33 @@ li.social-footer a:first-child
         max-height: 300px;
     }
 
+    .hero-text h1{
+        font-size: 25px!important;
+        line-height:35px!important;
+    }
+
 }
 
+@media screen and (max-width: 400px) {
+
+    .header-logo {
+        text-align: left !important;
+        width: 50%;
+        min-width: auto;
+        min-height: auto;
+        line-height: 0 !important;
+    }
+
+    .header-logo img {
+        min-width: auto;
+        min-height: auto;
+    }
+
+    .toggle-holder {
+        top: 60px;
+        right: 5%;
+    }
+}
 /*************** CUSTOM */
 
 .embed-container
@@ -2310,5 +2456,59 @@ li.social-footer a:first-child
     left: 0;
     width: 100%;
     height: 100%;
+}
+.content__title__inner {
+    flex: none;
+    display: inline-block;
+    /*white-space: nowrap;*/
+    position: relative;
+}
+
+.block-revealer__element {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #000;
+    pointer-events: none;
+    opacity: 0;
+}
+
+
+
+/**************** Header Hero */
+.header-hero {
+    position: relative;
+    max-width: 1600px;
+    margin: auto;
+}
+
+.hero-text {
+    background-color: white;
+    width:40%;
+    line-height: 0px;
+}
+
+.hero-text #rev-1 {
+    padding: 20px;
+}
+
+.hero-video {
+    background-color: #fafbf8;
+    width:60%;
+    line-height: 0 !important;
+}
+
+.content__title {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.position-lat img, .position-lng img{
+    vertical-align: middle;
+
 }
 

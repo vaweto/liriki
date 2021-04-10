@@ -15,7 +15,14 @@
     @yield('content')
 
     <!--Footer-->
+    <div style="background-color: white" class="content-1140 center-relative">
 
+        <div class="external-logos">
+            <img src={{$footerImg1}} alt="">
+            <img src={{$footerImg2}} alt="">
+            <img src={{$footerImg3}} alt="">
+        </div>
+    </div>
     <footer class="footer">
         @include('includes.footer')
     </footer>
@@ -40,6 +47,9 @@
             });
         });
     </script>
+
+    @yield('scripts')
+
 </body>
 </html>
 

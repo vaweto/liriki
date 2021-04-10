@@ -37,6 +37,13 @@
                     </div>
                     <div class="content-wrapper">
                         {!! $event->content !!}
+
+                        @if(! is_null($event->youtube))
+                            <div class='embed-container'>
+                                {!! $event->youtube !!}
+                            </div>
+                        @endif
+
                     </div>
                     <div class="clear"></div>
                 </div>

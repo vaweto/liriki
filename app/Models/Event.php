@@ -14,11 +14,20 @@ class Event extends Model
 {
     use HasTranslation, HasSlug, HasMedias, HasFiles, HasBlocks, HasUrl;
 
+    const CATEGORIES = [
+        'music_tales',
+        'music_events',
+        'big_productions',
+        'booklovers_point',
+        'music_bus'
+    ];
+
     protected $path = 'events';
 
     protected $fillable = [
         'published',
         'category',
+        'youtube'
     ];
 
     public $translatedAttributes = [

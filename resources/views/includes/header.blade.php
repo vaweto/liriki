@@ -11,6 +11,12 @@
                     {!! $headerMenu->renderBlocks() !!}
                 </ul>
             </nav>
+            <div class="menu-portfolio-category">
+                <p class="portfolio-category">
+                    <a class="dropdown-item" href="{{ route('lang.switch', 'el') }}">ελ</a>
+                    <a class="dropdown-item" href="{{ route('lang.switch', 'en') }}">en</a>
+                </p>
+            </div>
         </div>
         <div class="clear"></div>
     </div>

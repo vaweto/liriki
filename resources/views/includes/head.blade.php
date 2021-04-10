@@ -6,7 +6,7 @@
 
 
 <link rel="shortcut icon" href={{asset("images/favicon.ico")}} />
-<link href='http://fonts.googleapis.com/css?family=Playfair+Display%7CMontserrat:400,700%7CRoboto:300,300i,400,400i,700,700i' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Open+Sans%7CMontserrat:400,700%7CRoboto:300,300i,400,400i,700,700i' rel='stylesheet' type='text/css'>
 
 <link rel="stylesheet" type="text/css" href={{asset('css/clear.css')}} />
 <link rel="stylesheet" type="text/css" href={{asset('css/slick.css')}} />

@@ -88,6 +88,116 @@ return [
                     ],
                 ]
             ],
+            'main_footer_logo' => [
+                'logo' => [
+                    [
+                        'name' => 'logo',
+                        'ratio' => 0,
+                    ],
+                ]
+            ],
+            'footer_logo' => [
+                'logo' => [
+                    [
+                        'name' => 'logo',
+                        'ratio' => 0,
+                    ],
+                ]
+            ],
+            'footer_logo_2' => [
+                'logo' => [
+                    [
+                        'name' => 'logo',
+                        'ratio' => 0,
+                    ],
+                ]
+            ],
+            'footer_logo_3' => [
+                'logo' => [
+                    [
+                        'name' => 'logo',
+                        'ratio' => 0,
+                    ],
+                ]
+            ],
+            'footer_logo_4' => [
+                'logo' => [
+                    [
+                        'name' => 'logo',
+                        'ratio' => 0,
+                    ],
+                ]
+            ],
+            'music_tales_image' => [
+                'landscape' => [
+                    [
+                        'name' => 'landscape',
+                        'ratio' => 560 / 360,
+                    ],
+                ],
+                'portrait' => [
+                    [
+                        'name' => 'portrait',
+                        'ratio' => 360 / 560,
+                    ],
+                ],
+            ],
+            'music_events_image' => [
+                'landscape' => [
+                    [
+                        'name' => 'landscape',
+                        'ratio' => 560 / 360,
+                    ],
+                ],
+                'portrait' => [
+                    [
+                        'name' => 'portrait',
+                        'ratio' => 360 / 560,
+                    ],
+                ],
+            ],
+            'big_productions_image' => [
+                'landscape' => [
+                    [
+                        'name' => 'landscape',
+                        'ratio' => 560 / 360,
+                    ],
+                ],
+                'portrait' => [
+                    [
+                        'name' => 'portrait',
+                        'ratio' => 360 / 560,
+                    ],
+                ],
+            ],
+            'booklovers_point_image' => [
+                'landscape' => [
+                    [
+                        'name' => 'landscape',
+                        'ratio' => 560 / 360,
+                    ],
+                ],
+                'portrait' => [
+                    [
+                        'name' => 'portrait',
+                        'ratio' => 360 / 560,
+                    ],
+                ],
+            ],
+            'music_bus_image' => [
+                'landscape' => [
+                    [
+                        'name' => 'landscape',
+                        'ratio' => 560 / 360,
+                    ],
+                ],
+                'portrait' => [
+                    [
+                        'name' => 'portrait',
+                        'ratio' => 360 / 560,
+                    ],
+                ],
+            ],
         ],
     ],
     'files' => ['video_file'],

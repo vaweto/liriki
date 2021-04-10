@@ -4,6 +4,7 @@
 namespace App\Http\Controllers;
 
 
+use App\Models\Event;
 use App\Repositories\EventRepository;
 
 class HomeController extends Controller
@@ -26,8 +27,29 @@ class HomeController extends Controller
 
     public function index()
     {
+
         return view('content.home',[
-            'events' => $this->eventRepository->allEvents(10)
+            'categories' =>  $this->getCategorySectionImages()
         ]);
+    }
+
+    protected function getCategorySectionImages()
+    {
+        $categories = Event::CATEGORIES;
+
+        $categoriesImages = array();
+        $key = 0;
+
+        foreach ($categories as $category) {
+            $image = \A17\Twill\Models\Setting::where('key',$category . '_image')->first();
+
+            if( $image->medias->count() > 0 ) {
+                $categoriesImages[$key]['category'] = $category;
+                $categoriesImages[$key]['image'] = $image;
+                $key++;
+            }
+        }
+
+        return $categoriesImages;
     }
 }

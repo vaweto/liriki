@@ -68,6 +68,11 @@ return [
                 'icon' => 'text',
                 'component' => 'a17-block-events_menu',
             ],
+            'events_program_per_year' => [
+                'title' => 'Events Program Per Year',
+                'icon' => 'text',
+                'component' => 'a17-block-events_program_per_year',
+            ]
         ],
     ],
     'settings' => [

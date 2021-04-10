@@ -22,15 +22,15 @@
                     <div class="portfolio-item-info">
                         <div class="item-info-content">
                             <div class="info-code ">
-                                <p class="info-code-title">{{trans('category')}}</p>
+                                <p class="info-code-title">{{__('custom.category')}}</p>
                                 <p class="info-code-content">{{__('custom.'.$event->category)}}</p>
                             </div>
                             <div class="info-code ">
-                                <p class="info-code-title">{{trans('infos')}}</p>
+                                <p class="info-code-title">{{__('custom.infos')}}</p>
                                 <p class="info-code-content">{{$event->subtitle}}</p>
                             </div>
                             <div class="info-code ">
-                                <p class="info-code-title">{{trans('dates')}}</p>
+                                <p class="info-code-title">{{__('custom.event_dates')}}</p>
                                 {!! $event->renderBlocks() !!}
                             </div>
                         </div>
@@ -47,6 +47,27 @@
                     </div>
                     <div class="clear"></div>
                 </div>
+                @if(! empty($event->images('gallery','free')))
+                    <div class="box-post-width content-1140 center-relative top-20">
+                        <script>
+                            var slider_speed = "2000";
+                            var slider_auto = "true";
+                            var slider_hover = "true";
+                            var slider_dots = "true";
+                        </script>
+                        <div class="image-slider-wrapper relative">
+                            <div id="slider" class="image-slider slider">
+                                @foreach($event->images('gallery','free') as $image)
+                                    <div>
+                                        <img src="{!! $image !!}" alt="" />
+                                    </div>
+                                @endforeach
+
+
+                            </div>
+                        </div>
+                    </div>
+                @endif
             </div>
             <div class="clear"></div>
         </div>

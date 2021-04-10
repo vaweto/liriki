@@ -10,7 +10,7 @@
 
 @section('content')
     <div class="blog-holder block center-relative content-1140">
-        @foreach($blogs as $blog)
+        @forelse($blogs as $blog)
             <article class="animate relative blog-item-holder center-relative has-post-thumbnail">
                 <div class="post-thumbnail">
                     <a href="/blog/{{$blog->slug}}">
@@ -34,7 +34,11 @@
                 </div>
                 <div class="clear"></div>
             </article>
-        @endforeach
+        @empty
+            <div style="padding: 20%">
+                <h3>{{__('message.no_blogs_yet')}}</h3>
+            </div>
+        @endforelse
         <div style="text-align: center" class="content-945 center-relative">
             {{ $blogs->links() }}
         </div>

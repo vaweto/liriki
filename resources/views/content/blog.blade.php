@@ -9,7 +9,7 @@
 @stop
 
 @section('content')
-    <div id="content" class="site-content">
+    <div id="content" class="site-content" style="margin-bottom: 80px;">
         <article class="post">
             <h1 class="entry-title">{{$blog->title}}</h1>
             <div class="center-relative clear">

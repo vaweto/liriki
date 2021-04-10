@@ -15,12 +15,12 @@
         @endif
 
         <ul class="grid" id="portfolio">
-            @foreach($events  as $key => $event)
+            @forelse($events  as $key => $event)
                 @if($key === 0 || $key === 3 || $key === 4)
                     <li class="grid-item element-item animate">
                         <div class="item-wrapper">
                             <a href="/events/{{$event->slug}}">
-                                <img style="max-width: 360px"  src="{{$event->image('cover','portrait')}}" alt="" />
+                                <img style="max-width: 360px"  src="{{$event->image('cover','portrait')}}" alt="{{$event->title}}" />
                             </a>
                             <div class="portfolio-text-holder">
                                 <div class="portfolio-info">
@@ -41,7 +41,7 @@
                     <li class="grid-item element-item animate">
                         <div class="item-wrapper">
                             <a href="/events/{{$event->slug}}">
-                                <img src="{{$event->image('cover','landscape')}}" alt="" />
+                                <img src="{{$event->image('cover','landscape')}}" alt="{{$event->title}}" />
                             </a>
                             <div class="portfolio-text-holder">
                                 <div class="portfolio-info">
@@ -59,7 +59,12 @@
                         </div>
                     </li>
                 @endif
-            @endforeach
+            @empty
+                <div style="padding: 20%">
+                    <h3>{{__('message.no_events_yet')}}</h3>
+                </div>
+
+            @endforelse
         </ul>
         <div class="clear"></div>
         <div style="text-align: center" class="content-945 center-relative">

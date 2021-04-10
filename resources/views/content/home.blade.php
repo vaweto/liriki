@@ -59,7 +59,7 @@
                                 </a>
                                 <div class="portfolio-text-holder">
                                     <div class="portfolio-info">
-                                        <a class="portfolio-text" href="category/{{$categoryName}}/events">{{ __($categoryName)}}</a>
+                                        <a class="portfolio-text" href="category/{{$categoryName}}/events">{{ __('custom.'.$categoryName)}}</a>
                                         <p class="portfolio-arrow">
                                             <a href="category/{{$categoryName}}/events">
                                                 <img src="images/opta_arrow@2x.png" alt="">
@@ -77,7 +77,7 @@
                                 </a>
                                 <div class="portfolio-text-holder">
                                     <div class="portfolio-info">
-                                        <a class="portfolio-text" href="category/{{$categoryName}}/events">{{ __($categoryName)}}</a>
+                                        <a class="portfolio-text" href="category/{{$categoryName}}/events">{{ __('custom.'.$categoryName)}}</a>
                                         <p class="portfolio-arrow">
                                             <a href="category/{{$categoryName}}/events">
                                                 <img src="images/opta_arrow@2x.png" alt="">

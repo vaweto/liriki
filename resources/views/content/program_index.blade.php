@@ -19,9 +19,9 @@
                             <div  class="event-card">
                                 <widget type="ticket" class="--flex-column">
                                     <div class="top --flex-column">
-                                        <div style="min-height: 80px" class="bandname -bold">{{$event->event->title}}</div>
+                                        <div style="min-height: 80px" class="bandname -bold"><a href="/events/{{$event->event->slug}}" > {{$event->event->title}}</a></div>
                                         <div class="tourname">{{__('custom.' . $event->event->category)}}</div>
-                                        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/199011/concert.png" alt="" />
+                                        <img src="{{$event->event->image('cover','landscape')}}" alt="{{$event->event->title}}" />
                                         <div class="deetz --flex-row-j!sb">
                                             <div class="event --flex-column">
                                                 <div class="date">{{ $event->eventDate->format('d-m-Y H:i') }}</div>
@@ -36,7 +36,10 @@
                                 </widget>
                             </div>
                         @empty
-                            {{__('message.no_events_yet')}}
+                            <div style="padding: 20%">
+                                <h3>{{__('message.no_events_yet')}}</h3>
+                            </div>
+
                         @endforelse
                     </div>
                 </div>

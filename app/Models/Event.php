@@ -62,5 +62,13 @@ class Event extends Model
                 ],
             ]
         ],
+        'gallery' => [
+            'free' => [
+                [
+                    'name' => 'free',
+                    'ratio' => 0,
+                ],
+            ],
+        ]
     ];
 }

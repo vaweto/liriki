@@ -37,7 +37,4 @@
         'note' => 'Hint message`',
     ])
 
-    @formField('tags', [
-        'label' => 'Tags',
-    ])
 @stop

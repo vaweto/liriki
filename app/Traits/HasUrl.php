@@ -19,6 +19,6 @@ trait HasUrl
         if(! is_null($this->path) ) {
             return url('/') . '/' .$this->path . '/' .$this->slug;
         }
-        return url('/') . $this->slug;
+        return url('/') . '/' .$this->slug;
     }
 }

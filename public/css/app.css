@@ -807,8 +807,8 @@ body a:hover
 
 .info-code-title
 {
-    font-size: 15px;
-    line-height: 15px;
+    font-size: 20px;
+    line-height: 20px;
     font-style: italic;
     color: #b4b4b4;
     font-weight: 400;
@@ -818,9 +818,10 @@ body a:hover
 {
     font-family: "Montserrat", sans-serif;
     font-weight: 700;
-    font-size: 11px;
-    line-height: 18px;
+    font-size: 18px;
+    line-height: 22px;
     letter-spacing: 2px;
+    padding-top: 10px;
 }
 
 .testimonial-slider-holder
@@ -1311,7 +1312,7 @@ body a:hover
 
 .single-portfolio .portfolio-item-info
 {
-    width: 180px;
+    width: 200px;
     float: left;
 }
 
@@ -2188,10 +2189,11 @@ li.social-footer a:first-child
 
     .portfolio-text-holder
     {
-        top: 10px;
-        left: 10px;
-        bottom: 10px;
-        right: 10px;
+        top: 30px;
+        left: 30px;
+        bottom: 30px;
+        right: 30px;
+        opacity: 0.95;
     }
 
     .carousel-slider .slick-slide .item-text a
@@ -2307,6 +2309,8 @@ li.social-footer a:first-child
         text-align: center;
         width: 100%;
     }
+
+
 
 }
 

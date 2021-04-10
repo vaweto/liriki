@@ -43,7 +43,4 @@
         'blocks' => ['text_translated', 'image', 'text_quote', 'gallery', 'youtube_link']
     ])
 
-    @formField('tags', [
-        'label' => 'Tags',
-    ])
 @stop

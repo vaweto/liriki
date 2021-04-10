@@ -106,6 +106,16 @@ body .event-card {
 
 }
 
+@media screen and (max-width: 800px) {
+    body .event-card {
+        max-width: 255px;
+        flex: 1 0 50%!important; /* explanation below */
+        margin: 10px;
+        /*box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);*/
+
+    }
+}
+
 body .event-card:hover {
     /*box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22)!important;*/
 }

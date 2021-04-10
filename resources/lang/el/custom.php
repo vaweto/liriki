@@ -14,7 +14,15 @@ return [
     */
 
     'music_tales' => 'Μουσικά Παραμύθια',
-
+    'music_events' => 'Μουσικές Παραστάσεις',
+    'big_productions' => 'Μεγάλες Παραγωγές ΕΛΣ',
+    'booklovers_point' => "Booklover's Point",
+    'music_bus' => 'Μουσικό Λεωφορείο',
+    'category' => 'Κατηγορία',
+    'infos' => 'Πληροφορίες',
+    'event_dates' => 'Ημ/νιεσ Παραστάσεων',
+    'events' => 'Παραστάσεις',
+    'All' => 'Όλες'
 
 ];
 

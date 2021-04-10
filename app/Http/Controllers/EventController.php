@@ -55,7 +55,7 @@ class EventController extends Controller
     }
 
 
-    public function program($year)
+    public function program($year = null)
     {
 
         $events = $this->eventRepository->allEvents();

@@ -13,14 +13,21 @@
         @if(!is_null($title))
             <h1 class="entry-title">{{$title}}</h1>
         @endif
-
+        @if(! is_null($settings->byKey($categorySlug.'_text')))
+                <div class="entry-content">
+                    <div class="content-970 center-relative center-text">
+                        {!! $settings->byKey($categorySlug.'_text') !!}
+                    </div>
+                </div>
+                <div class="clear"></div>
+        @endif
         <ul class="grid" id="portfolio">
             @forelse($events  as $key => $event)
                 @if($key === 0 || $key === 3 || $key === 4)
                     <li class="grid-item element-item animate">
                         <div class="item-wrapper">
                             <a href="/events/{{$event->slug}}">
-                                <img style="max-width: 360px"  src="{{$event->image('cover','portrait')}}" alt="{{$event->title}}" />
+                                <img src="{{$event->image('cover','portrait')}}" alt="{{$event->title}}" />
                             </a>
                             <div class="portfolio-text-holder">
                                 <div class="portfolio-info">

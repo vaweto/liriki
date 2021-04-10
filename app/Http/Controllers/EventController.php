@@ -3,7 +3,6 @@
 
 namespace App\Http\Controllers;
 
-
 use App\Repositories\EventRepository;
 use Illuminate\Support\Carbon;
 use Illuminate\Support\Collection;
@@ -50,6 +49,7 @@ class EventController extends Controller
 
         return view('content.category_event_index',[
             'title' => __('custom.'.$category),
+            'categorySlug' => $category,
             'events' => $events
         ]);
     }

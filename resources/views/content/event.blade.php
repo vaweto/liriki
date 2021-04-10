@@ -59,7 +59,9 @@
                             <div id="slider" class="image-slider slider">
                                 @foreach($event->images('gallery','free') as $image)
                                     <div>
-                                        <img src="{!! $image !!}" alt="" />
+                                        <a href="{!! $image !!}" data-lightbox="event" data-title="">
+                                            <img src="{!! $image !!}" alt="" />
+                                        </a>
                                     </div>
                                 @endforeach
 

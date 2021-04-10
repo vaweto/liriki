@@ -20,6 +20,7 @@
         "vue-template-compiler": "^2.6.12"
     },
     "dependencies": {
+        "lightbox2": "^2.11.3",
         "loader.js": "^4.7.0",
         "vue": "^2.6.12",
         "vue-tree-list": "^1.5.0"

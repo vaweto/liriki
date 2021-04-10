@@ -2,7 +2,7 @@
     <div class="menu-holder">
         <div class="menu-left-part">
             <div class="menu-left-text">
-                {!! $settings->byKey('home_text') !!}}
+                {!! $settings->byKey('menu_text') !!}
             </div>
         </div>
         <div class="menu-right-part">

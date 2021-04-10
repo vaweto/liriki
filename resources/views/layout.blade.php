@@ -34,6 +34,7 @@
     <script type='text/javascript' src={{asset('js/slick.min.js')}}></script>
     <script type='text/javascript' src={{asset('js/jquery.easing.1.3.js')}}></script>
     <script type='text/javascript' src={{asset('js/main.js')}}></script>
+    <script type='text/javascript' src={{asset('js/lightbox.js')}}></script>
 
     <script>
         $('.language').on('show.bs.modal', function (e) {

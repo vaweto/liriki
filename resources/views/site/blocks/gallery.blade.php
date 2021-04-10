@@ -13,7 +13,9 @@
         <div id="slider" class="image-slider slider">
             @foreach($images as $image)
                 <div>
-                    <img src="{!! $image !!}" alt="" />
+                    <a href="{!! $image !!}" data-lightbox="gallery" data-title="">
+                        <img src="{!! $image !!}" alt="" />
+                    </a>
                 </div>
             @endforeach
 

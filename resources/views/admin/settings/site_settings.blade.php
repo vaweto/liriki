@@ -108,6 +108,35 @@
     'fieldNote' => 'Minimum image width: 1500px'
     ])
 
+    @formField('wysiwyg', [
+    'translated' => true,
+    'name' => 'music_tales_text',
+    'label' => 'Μουσικά Παραμύθια',
+    'toolbarOptions' => [
+    ['header' => [2, 3, 4, 5, 6, false]],
+    'bold',
+    'italic',
+    'underline',
+    'strike',
+    ["script" => "super"],
+    ["script" => "sub"],
+    "blockquote",
+    "code-block",
+    ['list' => 'ordered'],
+    ['list' => 'bullet'],
+    ['indent' => '-1'],
+    ['indent' => '+1'],
+    ["align" => []],
+    ["direction" => "rtl"],
+    'link',
+    "clean",
+    ],
+    'placeholder' => 'Case study text',
+    'maxlength' => 200,
+    'note' => 'Hint message',
+    'editSource' => true,
+    ])
+
     <h2>Μουσικές Παραστάσεις</h2>
 
     @formField('medias', [
@@ -115,6 +144,35 @@
     'label' => 'Μουσικές Παραστάσεις image',
     'note' => 'Also used in listings',
     'fieldNote' => 'Minimum image width: 1500px'
+    ])
+
+    @formField('wysiwyg', [
+    'translated' => true,
+    'name' => 'music_events_text',
+    'label' => 'Μουσικές Παραστάσεις',
+    'toolbarOptions' => [
+    ['header' => [2, 3, 4, 5, 6, false]],
+    'bold',
+    'italic',
+    'underline',
+    'strike',
+    ["script" => "super"],
+    ["script" => "sub"],
+    "blockquote",
+    "code-block",
+    ['list' => 'ordered'],
+    ['list' => 'bullet'],
+    ['indent' => '-1'],
+    ['indent' => '+1'],
+    ["align" => []],
+    ["direction" => "rtl"],
+    'link',
+    "clean",
+    ],
+    'placeholder' => 'Case study text',
+    'maxlength' => 200,
+    'note' => 'Hint message',
+    'editSource' => true,
     ])
 
     <h2>Μεγάλες Παραγωγές ΕΛΣ</h2>
@@ -126,13 +184,71 @@
     'fieldNote' => 'Minimum image width: 1500px'
     ])
 
+    @formField('wysiwyg', [
+    'translated' => true,
+    'name' => 'big_productions_text',
+    'label' => 'Μεγάλες Παραγωγές ΕΛΣ',
+    'toolbarOptions' => [
+    ['header' => [2, 3, 4, 5, 6, false]],
+    'bold',
+    'italic',
+    'underline',
+    'strike',
+    ["script" => "super"],
+    ["script" => "sub"],
+    "blockquote",
+    "code-block",
+    ['list' => 'ordered'],
+    ['list' => 'bullet'],
+    ['indent' => '-1'],
+    ['indent' => '+1'],
+    ["align" => []],
+    ["direction" => "rtl"],
+    'link',
+    "clean",
+    ],
+    'placeholder' => 'Case study text',
+    'maxlength' => 200,
+    'note' => 'Hint message',
+    'editSource' => true,
+    ])
+
     <h2>Booklover s Point</h2>
 
     @formField('medias', [
     'name' => 'booklovers_point_image',
-    'label' => "Booklover's Point image",
+    'label' => 'Booklovers Point image',
     'note' => 'Also used in listings',
     'fieldNote' => 'Minimum image width: 1500px'
+    ])
+
+    @formField('wysiwyg', [
+    'translated' => true,
+    'name' => 'booklovers_point_text',
+    'label' => 'Booklovers Point',
+    'toolbarOptions' => [
+    ['header' => [2, 3, 4, 5, 6, false]],
+    'bold',
+    'italic',
+    'underline',
+    'strike',
+    ["script" => "super"],
+    ["script" => "sub"],
+    "blockquote",
+    "code-block",
+    ['list' => 'ordered'],
+    ['list' => 'bullet'],
+    ['indent' => '-1'],
+    ['indent' => '+1'],
+    ["align" => []],
+    ["direction" => "rtl"],
+    'link',
+    "clean",
+    ],
+    'placeholder' => 'Case study text',
+    'maxlength' => 200,
+    'note' => 'Hint message',
+    'editSource' => true,
     ])
 
     <h2>Μουσικό Λεωφορείο</h2>
@@ -142,6 +258,35 @@
     'label' => 'Μουσικό Λεωφορείο image',
     'note' => 'Also used in listings',
     'fieldNote' => 'Minimum image width: 1500px'
+    ])
+
+    @formField('wysiwyg', [
+    'translated' => true,
+    'name' => 'music_bus_text',
+    'label' => "Μουσικό Λεωφορείο",
+    'toolbarOptions' => [
+    ['header' => [2, 3, 4, 5, 6, false]],
+    'bold',
+    'italic',
+    'underline',
+    'strike',
+    ["script" => "super"],
+    ["script" => "sub"],
+    "blockquote",
+    "code-block",
+    ['list' => 'ordered'],
+    ['list' => 'bullet'],
+    ['indent' => '-1'],
+    ['indent' => '+1'],
+    ["align" => []],
+    ["direction" => "rtl"],
+    'link',
+    "clean",
+    ],
+    'placeholder' => 'Case study text',
+    'maxlength' => 200,
+    'note' => 'Hint message',
+    'editSource' => true,
     ])
 
 

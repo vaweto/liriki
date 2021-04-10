@@ -14,6 +14,7 @@
 <link rel="stylesheet" type="text/css" href={{asset('css/sm-clean.css')}} />
 <link rel="stylesheet" type="text/css" href={{asset('css/widget.css')}} />
 <link href={{asset('css/app.css')}} rel="stylesheet">
+<link href={{asset('css/lightbox.css')}} rel="stylesheet">
 
 <!--[if lt IE 9]>
 <script src={{asset("js/html5.js")}}></script>

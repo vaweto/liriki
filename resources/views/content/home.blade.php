@@ -20,27 +20,31 @@
     <div class="loader">
         <img src="{{asset('images/tenor.gif')}}" >
     </div>
+    <div class="site-content content-hero">
 
-    <div style="margin-bottom: 80px" class="content header-hero">
-        <div class="content__title content__title--center">
-            <div class="hero-text">
-                <div id="rev-1" class="content__title__inner">
-                    <h1 class="entry-title">
-                        {!! $settings->byKey('home_text') !!}
-                    </h1>
-                    <p class="page-desc">{{$settings->byKey('sub_text')}}</p>
+        <div class="content header-hero">
+            <div class="content__title content__title--center">
+                <div class="hero-text">
+                    <div id="rev-1" class="content__title__inner">
+                        <h1 class="entry-title">
+                            {!! $settings->byKey('home_text') !!}
+                        </h1>
+                        <p class="page-desc">{{$settings->byKey('sub_text')}}</p>
+                    </div>
                 </div>
-            </div>
-            <div class="hero-video">
-                <div id="rev-2" style="text-align: center" class="content__title__inner content__title__inner--offset-1">
-                    <video id="vid" autoplay muted loop controls>
-                        <source src="{{asset('assets/public/Lirikos_notos_intro_video.mp4')}}" type="video/mp4">
-                        Your browser does not support the video tag.
-                    </video>
+                <div class="hero-video">
+                    <div id="rev-2" style="text-align: center" class="content__title__inner content__title__inner--offset-1">
+                        <video id="vid" autoplay muted loop controls>
+                            <source src="{{asset('assets/public/Lirikos_notos_intro_video.mp4')}}" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                    </div>
                 </div>
             </div>
         </div>
+
     </div>
+
 
     @if(! empty($categories) )
         <div id="content" class="site-content">
@@ -55,7 +59,7 @@
                         <li class="grid-item element-item animate">
                             <div class="item-wrapper">
                                 <a href="category/{{$categoryName}}/events">
-                                    <img style="max-width: 360px"  src="{{$categoryImage->image($categoryName .'_image','portrait')}}" alt="" />
+                                    <img  src="{{$categoryImage->image($categoryName .'_image','portrait')}}" alt="" />
                                 </a>
                                 <div class="portfolio-text-holder">
                                     <div class="portfolio-info">
@@ -73,7 +77,7 @@
                         <li class="grid-item element-item animate">
                             <div class="item-wrapper">
                                 <a href="category/{{$categoryName}}/events">
-                                    <img style="max-width: 360px"  src="{{$categoryImage->image($categoryName .'_image','landscape')}}" alt="" />
+                                    <img  src="{{$categoryImage->image($categoryName .'_image','landscape')}}" alt="" />
                                 </a>
                                 <div class="portfolio-text-holder">
                                     <div class="portfolio-info">

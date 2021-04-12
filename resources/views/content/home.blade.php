@@ -55,7 +55,7 @@
                         $categoryImage = $category['image'];
                     @endphp
 
-                    @if($key === 0 || $key === 3 || $key === 4)
+                    @if($key === 0 || $key === 3 )
                         <li class="grid-item element-item animate">
                             <div class="item-wrapper">
                                 <a href="category/{{$categoryName}}/events">

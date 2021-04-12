@@ -2556,6 +2556,6 @@ li.social-footer a:first-child
 
 
 .portrait-img-grid img.portrait  {
-    max-width: 360px;
+    max-width: 360px!important;
 }
 

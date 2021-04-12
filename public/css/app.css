@@ -2554,3 +2554,8 @@ li.social-footer a:first-child
 
 }
 
+
+.portrait-img-grid .portrait img {
+    max-width: 360px;
+}
+

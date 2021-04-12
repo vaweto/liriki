@@ -25,9 +25,9 @@
             @forelse($events  as $key => $event)
                 @if($key === 0 || $key === 3 || $key === 4)
                     <li class="grid-item element-item animate">
-                        <div class="item-wrapper">
+                        <div class="item-wrapper portrait-img-grid">
                             <a href="/events/{{$event->slug}}">
-                                <img src="{{$event->image('cover','portrait')}}" alt="{{$event->title}}" />
+                                <img class="portrait" src="{{$event->image('cover','portrait')}}" alt="{{$event->title}}" />
                             </a>
                             <div class="portfolio-text-holder">
                                 <div class="portfolio-info">

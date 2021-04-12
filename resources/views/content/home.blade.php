@@ -58,8 +58,8 @@
                     @if($key === 0 || $key === 3 )
                         <li class="grid-item element-item animate">
                             <div class="item-wrapper portrait-img-grid">
-                                <a class="portrait" href="category/{{$categoryName}}/events">
-                                    <img  src="{{$categoryImage->image($categoryName .'_image','portrait')}}" alt="" />
+                                <a  href="category/{{$categoryName}}/events">
+                                    <img  class="portrait" src="{{$categoryImage->image($categoryName .'_image','portrait')}}" alt="" />
                                 </a>
                                 <div class="portfolio-text-holder">
                                     <div class="portfolio-info">

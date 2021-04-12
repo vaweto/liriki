@@ -44,32 +44,33 @@
                             </div>
                         @endif
 
+                        @if(! empty($event->images('gallery','free')))
+                            <div class="top-20">
+                                <script>
+                                    var slider_speed = "2000";
+                                    var slider_auto = "true";
+                                    var slider_hover = "true";
+                                    var slider_dots = "true";
+                                </script>
+                                <div class="image-slider-wrapper relative">
+                                    <div id="slider" class="image-slider slider">
+                                        @foreach($event->images('gallery','free') as $image)
+                                            <div>
+                                                <a href="{!! $image !!}" data-lightbox="event" data-title="">
+                                                    <img src="{!! $image !!}" alt="" />
+                                                </a>
+                                            </div>
+                                        @endforeach
+
+
+                                    </div>
+                                </div>
+                            </div>
+                        @endif
                     </div>
                     <div class="clear"></div>
                 </div>
-                @if(! empty($event->images('gallery','free')))
-                    <div class="box-post-width content-1140 center-relative top-20">
-                        <script>
-                            var slider_speed = "2000";
-                            var slider_auto = "true";
-                            var slider_hover = "true";
-                            var slider_dots = "true";
-                        </script>
-                        <div class="image-slider-wrapper relative">
-                            <div id="slider" class="image-slider slider">
-                                @foreach($event->images('gallery','free') as $image)
-                                    <div>
-                                        <a href="{!! $image !!}" data-lightbox="event" data-title="">
-                                            <img src="{!! $image !!}" alt="" />
-                                        </a>
-                                    </div>
-                                @endforeach
 
-
-                            </div>
-                        </div>
-                    </div>
-                @endif
             </div>
             <div class="clear"></div>
         </div>

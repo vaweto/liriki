@@ -2635,3 +2635,7 @@ li.social-footer a:first-child
     padding: 20px;
     border: 2px solid black;
 }
+
+.external-logos {
+    vertical-align: middle;!important;
+}

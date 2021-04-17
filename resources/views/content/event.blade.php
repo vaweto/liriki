@@ -15,11 +15,11 @@
         <div class="center-relative clear">
             <div class="entry-content">
                 <div class="top-content">
-                    <h1 class="entry-title">{{$event->title}}</h1>
+                    <h1 class="entry-title {{$event->category}}">{{$event->title}}</h1>
                     <img src="{{$event->image('cover','landscape')}}" alt="{{$event->title}}" />
                 </div>
-                <div class="content-970 center-relative">
-                    <div class="portfolio-item-info">
+                <div class="entry-content center-relative">
+                    <div class="portfolio-item-info event-box {{$event->category}}_box">
                         <div class="item-info-content">
                             <div class="info-code ">
                                 <p class="info-code-title">{{__('custom.category')}}</p>

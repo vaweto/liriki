@@ -5,13 +5,18 @@
 @stop
 
 @section('body-classes')
-    page
+    single
 @stop
 
 @section('content')
     <div id="content" class="site-content">
         @if(!is_null($title))
-            <h1 class="entry-title">{{$title}}</h1>
+            <div class="entry-content">
+                <div class="top-content">
+                    <h1 class="entry-title {{$categorySlug}}">{{$title}}</h1>
+                </div>
+            </div>
+            <div class="clear"></div>
         @endif
         @if(! is_null($settings->byKey($categorySlug.'_text')))
                 <div class="entry-content">

@@ -16,6 +16,29 @@ return [
         'users-2fa' => false,
         'users-oauth' => false,
     ],
+    'glide' => [
+        'default_params' => [
+            'fm' => null,
+            'q' => '80',
+            'fit' => 'max',
+        ],
+        'lqip_default_params' => [
+            'fm' => 'gif',
+            'blur' => 100,
+            'dpr' => 1,
+        ],
+        'social_default_params' => [
+            'fm' => null,
+            'w' => 900,
+            'h' => 470,
+            'fit' => 'crop',
+        ],
+        'cms_default_params' => [
+            'q' => '60',
+            'dpr' => '1',
+        ],
+        'presets' => [],
+    ],
     'block_editor' => [
         'blocks' => [
             'event_info' => [

@@ -8,7 +8,7 @@
     position: relative;
 }
 body widget {
-    filter: drop-shadow(1px 1px 3px rgba(0, 0, 0, 0.3));
+    filter: drop-shadow(2px 2px 3px rgba(0, 0, 0, 0.5));
 }
 body widget[type=ticket] {
     width: 255px;
@@ -32,7 +32,7 @@ body widget[type=ticket] .bottom img {
 body widget[type=ticket] .top,
 body widget[type=ticket] .bottom,
 body widget[type=ticket] .rip {
-    background-color: #eeede5;
+    background-color: white;
 }
 body widget[type=ticket] .top {
     border-top-right-radius: 5px;
@@ -61,7 +61,7 @@ body widget[type=ticket] .bottom .buy {
     padding: 0 18px;
     line-height: 30px;
     border-radius: 15px;
-    color: #eeede5;
+    color: white;
     text-decoration: none;
 }
 body widget[type=ticket] .rip {
@@ -72,7 +72,7 @@ body widget[type=ticket] .rip {
     background-repeat: repeat-x;
     background-position: center;
     position: relative;
-    box-shadow: 0 1px 0 0 #eeede5, 0 -1px 0 0 #eeede5;
+    box-shadow: 0 1px 0 0 white, 0 -1px 0 0 white;
 }
 body widget[type=ticket] .rip:before, body widget[type=ticket] .rip:after {
     content: "";
@@ -82,8 +82,8 @@ body widget[type=ticket] .rip:before, body widget[type=ticket] .rip:after {
     top: 50%;
     transform: translate(-50%, -50%) rotate(45deg);
     border: 5px solid transparent;
-    border-top-color: #eeede5;
-    border-right-color: #eeede5;
+    border-top-color: white;
+    border-right-color: white;
     border-radius: 100%;
     pointer-events: none;
 }

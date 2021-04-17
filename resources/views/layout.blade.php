@@ -15,7 +15,7 @@
     @yield('content')
 
     <!--Footer-->
-    <div style="background-color: white" class="content-1140 center-relative">
+    <div  class="content-1140 center-relative">
 
         <div class="external-logos">
             @if(! is_null($footerImg1) )

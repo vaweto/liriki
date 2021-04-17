@@ -27,7 +27,7 @@ class Controller extends BaseController
 
         $logo = \A17\Twill\Models\Setting::where('key','logo')->first();
         if(!is_null($logo)) {
-            $logo = $logo->image('logo','logo');
+            $logo = $logo->image('logo','logo',['fm' => null]);
         }
 
 

@@ -12,21 +12,25 @@
 @section('content')
     <div id="content" class="site-content">
         <article class="post">
-            <h1 class="entry-title">{{$placemark->title}}</h1>
+            <h1 style="
+            background: url('/images/pentagram-white.png') center center no-repeat;
+            background-color: rgba(60, 179, 113, 0.7);
+            "
+                class="entry-title">{{$placemark->title}}</h1>
             <div class="content-1140 center-relative bottom-100">
                 <div class="center-relative clear">
                     <div class="entry-content">
                         <div class="top-content">
                             <img src="{!! $placemark->image('cover','desktop') !!}" alt="{{$placemark->title}}" />
                         </div>
-                        <div class="content-970 center-relative">
+                        <div class="entry-content center-relative">
                             <div class="portfolio-item-info">
                                 <div class="item-info-content">
                                     <img style="max-width: 100%" src="{!! $placemark->image('logo','flexible') !!}" alt="{{$placemark->title}}" />
                                     <div class="clear"></div>
                                 </div>
                             </div>
-                            <div class="">
+                            <div class="content-wrapper">
                                 {!! $placemark->content !!}
                             </div>
                             <div class="clear"></div>

@@ -37,7 +37,7 @@
     <footer class="footer">
         @include('includes.footer')
     </footer>
-
+    <script src="https://cdn.jsdelivr.net/npm/lozad/dist/lozad.min.js"></script>
     <script type='text/javascript' src={{asset("js/jquery.min.js")}}></script>
     <script type='text/javascript' src={{asset("js/jquery.fitvids.js")}}></script>
     <script type='text/javascript' src={{asset('js/jquery.smartmenus.min.js')}}></script>

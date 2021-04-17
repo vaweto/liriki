@@ -72,6 +72,11 @@ return [
                 'title' => 'Events Program Per Year',
                 'icon' => 'text',
                 'component' => 'a17-block-events_program_per_year',
+            ],
+            'title_image_text' => [
+                'title' => 'Title wiht image and text',
+                'icon' => 'text',
+                'component' => 'a17-block-title_image_text',
             ]
         ],
     ],

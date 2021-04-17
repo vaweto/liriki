@@ -31,6 +31,7 @@
                             </div>
                             <div class="clear"></div>
                         </div>
+                        {!! $placemark->renderBlocks() !!}
                     </div>
                     <div class="clear"></div>
                 </div>

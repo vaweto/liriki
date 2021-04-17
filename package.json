@@ -22,6 +22,7 @@
     "dependencies": {
         "lightbox2": "^2.11.3",
         "loader.js": "^4.7.0",
+        "sal.js": "^0.8.4",
         "vue": "^2.6.12",
         "vue-tree-list": "^1.5.0"
     }

@@ -46,4 +46,8 @@
         'note' => 'Hint message`',
     ])
 
+    @formField('block_editor', [
+    'blocks' => ['title_image_text']
+    ])
+
 @stop

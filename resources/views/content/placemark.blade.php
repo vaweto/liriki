@@ -12,11 +12,7 @@
 @section('content')
     <div id="content" class="site-content">
         <article class="post">
-            <h1 style="
-            background: url('/images/pentagram-white.png') center center no-repeat;
-            background-color: rgba(60, 179, 113, 0.7);
-            "
-                class="entry-title">{{$placemark->title}}</h1>
+            <h1 class="entry-title">{{$placemark->title}}</h1>
             <div class="content-1140 center-relative bottom-100">
                 <div class="center-relative clear">
                     <div class="entry-content">

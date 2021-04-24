@@ -88,6 +88,18 @@
         'required' => true,
     ])
 
+    @formField('input', [
+    'name' => 'main_color',
+    'label' => 'Main color',
+    'maxlength' => 10,
+    ])
+
+    @formField('input', [
+    'name' => 'secondary_color',
+    'label' => 'Secondary color',
+    'maxlength' => 10,
+    ])
+
     @formField('medias', [
         'name' => 'gallery',
         'label' => 'Gallery',

@@ -2,6 +2,10 @@
 <html lang="en-US">
 <head>
     @include('includes.head')
+    <style>
+        @yield('style')
+    </style>
+
 </head>
 <body class="
     @yield('body-classes')

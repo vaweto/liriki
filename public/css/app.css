@@ -2592,22 +2592,27 @@ li.social-footer a:first-child
 
 .music_tales{
     color: #41cdb9!important;
+    border-bottom: 10px solid #41cdb9;
 }
 
 .music_events{
     color: #68deff!important;
+    border-bottom: 10px solid #68deff;
 }
 
 .big_productions{
     color: #ff8788!important;
+    border-bottom: 10px solid #ff8788;
 }
 
 .booklovers_point{
     color: #67dd66!important;
+    border-bottom: 10px solid #67dd66;
 }
 
 .music_bus{
     color: #6a5acd!important;
+    border-bottom: 10px solid #6a5acd;
 }
 
 .music_tales_box{
@@ -2642,3 +2647,21 @@ li.social-footer a:first-child
 .image-100 img{
     width: 100%!important;
 }
+
+
+/*.box-border {*/
+/*    padding: 60px;*/
+/*    max-width: 650px;*/
+/*    background: #ffa990;*/
+/*    border: 5px solid #ffa990;*/
+/*    box-shadow: 0 0 0 2.5px #ffa990, 0 0 0 12.5px #94e5b6, inset 0 0 0 2.5px #ffa990, 0 5px 10px 15px rgb(0 0 0 / 50%), inset 0 0 0 6px #94e5b6, inset 0 0 100vw 100vw #94e5b6;*/
+/*    color: #94e5b6;*/
+/*    font-family: Marcellus, serif;*/
+/*    font-size: 3em;*/
+/*    text-shadow: 0 2px #fff;*/
+/*    text-align: center;*/
+/*}*/
+
+/*.box-border {*/
+/*    border: 2px solid black;*/
+/*}*/

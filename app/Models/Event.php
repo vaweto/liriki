@@ -27,7 +27,9 @@ class Event extends Model
     protected $fillable = [
         'published',
         'category',
-        'youtube'
+        'youtube',
+        'main_color',
+        'secondary_color'
     ];
 
     public $translatedAttributes = [

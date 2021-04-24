@@ -20,7 +20,7 @@
                                 <widget type="ticket" class="--flex-column">
                                     <div class="top --flex-column">
                                         <div style="min-height: 80px" class="bandname -bold"><a href="/events/{{$event->event->slug}}" > {{$event->event->title}}</a></div>
-                                        <div class="tourname {{$event->event->category}}">{{__('custom.' . $event->event->category)}}</div>
+                                        <div {{(!is_null($event->main_color)) ? 'style="color:'.$event->main_color .'"' : ''}}class="tourname {{$event->event->category}}">{{__('custom.' . $event->event->category)}}</div>
                                         <img src="{{$event->event->image('cover','landscape')}}" alt="{{$event->event->title}}" />
                                         <div class="deetz --flex-row-j!sb">
                                             <div class="event --flex-column">

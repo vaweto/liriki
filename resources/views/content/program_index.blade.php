@@ -29,9 +29,14 @@
                                             </a>
                                         </div>
                                         <div
-                                            @if(!is_null($event->event->main_color))
-                                            style="color: {{$event->event->main_color}}!important"
-                                            @endif
+                                            style="
+                                                @if(!is_null($event->event->main_color))
+                                                color: {{$event->event->main_color}}!important;
+                                                @endif
+                                                @if(!is_null($event->event->secondary_color))
+                                                border-bottom: 10px solid {{$event->event->secondary_color}}!important
+                                                @endif
+                                            "
                                              class="tourname {{$event->event->category}}">
                                             {{__('custom.' . $event->event->category)}}
                                         </div>

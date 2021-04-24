@@ -2592,52 +2592,29 @@ li.social-footer a:first-child
 
 .music_tales{
     color: #41cdb9!important;
-
+    border-bottom: 10px solid #41cdb9;
 }
 
 .music_events{
     color: #68deff!important;
-
+    border-bottom: 10px solid #68deff;
 }
 
 .big_productions{
     color: #ff8788!important;
-
+    border-bottom: 10px solid #ff8788;
 }
 
 .booklovers_point{
     color: #67dd66!important;
-
+    border-bottom: 10px solid #67dd66;
 }
 
 .music_bus{
     color: #6a5acd!important;
-
-}
-
-h1.music_tales{
-    border-bottom: 10px solid #41cdb9;
-}
-
-h1.music_events{
-
-    border-bottom: 10px solid #68deff;
-}
-
-h1.big_productions{
-
-    border-bottom: 10px solid #ff8788;
-}
-
-h1.booklovers_point{
-
-    border-bottom: 10px solid #67dd66;
-}
-
-h1.music_bus{
-
     border-bottom: 10px solid #6a5acd;
 }
+
 
 .music_tales_box{
     border-color: #41cdb9!important;

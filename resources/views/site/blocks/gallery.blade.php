@@ -14,7 +14,7 @@
             @foreach($images as $image)
                 <div>
                     <a href="{!! $image !!}" data-lightbox="gallery" data-title="">
-                        <img src="{!! $image !!}" alt="" />
+                        <img class="lozad" src="{!! $image !!}" alt="" />
                     </a>
                 </div>
             @endforeach

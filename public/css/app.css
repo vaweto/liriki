@@ -499,7 +499,6 @@ body a:hover
     color: #fff;
     letter-spacing: 2px;
     padding-left: 2px;
-    text-transform: uppercase;
     margin-right: 20px;
     display: inline-block;
 }
@@ -2638,4 +2637,8 @@ li.social-footer a:first-child
 
 .external-logos {
     vertical-align: middle!important;
+}
+
+.image-100 img{
+    width: 100%!important;
 }

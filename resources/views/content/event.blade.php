@@ -14,7 +14,7 @@
     <div class="content-1140 center-relative bottom-100">
         <div class="center-relative clear">
             <div class="entry-content">
-                <div class="top-content">
+                <div class="top-content image-100">
                     <h1 class="entry-title {{$event->category}}">{{$event->title}}</h1>
                     <img src="{{$event->image('cover','landscape')}}" alt="{{$event->title}}" />
                 </div>

@@ -16,7 +16,7 @@
             <h1 class="entry-title">{{$page->title}}</h1>
             <div class="center-relative clear">
                 <div class="entry-content">
-                    <div class="content-750 center-relative">
+                    <div class="content-750 center-relative image-100">
                         {!! $page->content !!}
                     </div>
 

@@ -35,7 +35,7 @@
                 <div class="hero-video">
                     <div id="rev-2" style="text-align: center" class="content__title__inner content__title__inner--offset-1">
                         <video id="vid" autoplay muted loop controls>
-                            <source src="{{asset('assets/public/Lirikos_notos_intro_video.mp4')}}" type="video/mp4">
+                            <source src="{{asset('assets/public/LYRIKOS_NOTOS_VIDEO_FINAL.mp4')}}" type="video/mp4">
                             Your browser does not support the video tag.
                         </video>
                     </div>

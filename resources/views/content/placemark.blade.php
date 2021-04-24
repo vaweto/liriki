@@ -16,7 +16,7 @@
             <div class="content-1140 center-relative bottom-100">
                 <div class="center-relative clear">
                     <div class="entry-content">
-                        <div class="top-content">
+                        <div class="top-content image-100">
                             <img src="{!! $placemark->image('cover','desktop') !!}" alt="{{$placemark->title}}" />
                         </div>
                         <div class="entry-content center-relative">

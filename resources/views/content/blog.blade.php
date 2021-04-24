@@ -19,7 +19,7 @@
                     <span class="total-posts">{{$blog->created_at->month}}</span>
                 </div>
                 <div class="entry-content">
-                    <div class="content-1140 center-relative bottom-100">
+                    <div class="content-1140 center-relative bottom-100 image-100">
                         <img src="{!! $blog->image('cover','desktop') !!}" alt="{{$blog->title}}" />
                     </div>
                     <div class="content-970 center-relative">

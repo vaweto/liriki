@@ -833,10 +833,10 @@ div.entry-title-container .image-bg {
 }
 
 .external-logos img{
-    width: 20%!important;
     padding: 2%;
     width: auto;
     display: inline-block;
+    max-height: 120px;
 }
 
 .footer-half-logo {

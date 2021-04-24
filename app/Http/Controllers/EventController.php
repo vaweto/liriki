@@ -65,6 +65,8 @@ class EventController extends Controller
            $item->blocks->map(function($eventDate) use (&$item, &$eventsByDate){
                $eventDate->event = $item;
                $eventDate->eventDate =  Carbon::createFromFormat('Y-m-d H:i',$eventDate->content['event_date']);
+               $eventDate->eventTimestamp =  Carbon::createFromFormat('Y-m-d H:i',$eventDate->content['event_date'])->timestamp;
+               $eventDate->passDate =  (Carbon::createFromFormat('Y-m-d H:i',$eventDate->content['event_date']) < Carbon::now()->addDay()) ? true : false;
                $eventsByDate->push($eventDate);
            });
         });
@@ -75,7 +77,10 @@ class EventController extends Controller
             });
         }
 
-        $eventsByDate->sortBy('eventDate');
+        $eventsByDate = $eventsByDate->sortBy(function($event)
+        {
+            return $event->eventTimestamp;
+        });
 
         return view('content.program_index',[
             'year' => $year,

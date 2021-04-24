@@ -7,6 +7,16 @@
     align-items: center;
     position: relative;
 }
+
+.event-card.event-passed .date{
+    text-decoration: line-through;
+}
+
+.event-card .date{
+    font-weight: bold;
+    text-shadow: 0 0 black;
+}
+
 body widget {
     filter: drop-shadow(2px 2px 3px rgba(0, 0, 0, 0.5));
 }

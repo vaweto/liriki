@@ -2650,6 +2650,10 @@ li.social-footer a:first-child
 }
 
 
+.location.-bold {
+    min-height: 180px!important;
+}
+
 /*.box-border {*/
 /*    padding: 60px;*/
 /*    max-width: 650px;*/

@@ -217,7 +217,7 @@ return [
                     ],
                 ],
             ],
-            'music_bus_image' => [
+            'cultural_bus_image' => [
                 'landscape' => [
                     [
                         'name' => 'landscape',

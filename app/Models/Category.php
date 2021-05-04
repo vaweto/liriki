@@ -11,6 +11,6 @@ class Category
         'music_events',
         'big_productions',
         'booklovers_point',
-        'music_bus'
+        'cultural_bus'
     ];
 }

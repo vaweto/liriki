@@ -19,7 +19,7 @@ class Event extends Model
         'music_events',
         'big_productions',
         'booklovers_point',
-        'music_bus'
+        'cultural_bus'
     ];
 
     protected $path = 'events';

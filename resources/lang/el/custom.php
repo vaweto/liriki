@@ -17,10 +17,10 @@ return [
     'music_events' => 'Μουσικές Παραστάσεις',
     'big_productions' => 'Μεγάλες Παραγωγές ΕΛΣ',
     'booklovers_point' => "Booklover's Point",
-    'music_bus' => 'Μουσικό Λεωφορείο',
+    'cultural_bus' => 'Πολιτιστικό Λεωφορείο',
     'category' => 'Κατηγορία',
     'infos' => 'Πληροφορίες',
-    'event_dates' => 'Ημ/νιεσ Παραστάσεων',
+    'event_dates' => 'Ημ/νιες Παραστάσεων',
     'events' => 'Παραστάσεις',
     'All' => 'Όλες'
 

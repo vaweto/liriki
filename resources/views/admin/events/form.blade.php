@@ -42,7 +42,7 @@
                 'label' => 'Booklover\'s Point'
             ],
             [
-                'value' => 'music_bus',
+                'value' => 'cultural_bus',
                 'label' => 'Μουσικό Λεωφορείο'
             ]
         ]

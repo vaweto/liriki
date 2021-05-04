@@ -254,7 +254,7 @@
     <h2>Μουσικό Λεωφορείο</h2>
 
     @formField('medias', [
-    'name' => 'music_bus_image',
+    'name' => 'cultural_bus_image',
     'label' => 'Μουσικό Λεωφορείο image',
     'note' => 'Also used in listings',
     'fieldNote' => 'Minimum image width: 1500px'
@@ -262,7 +262,7 @@
 
     @formField('wysiwyg', [
     'translated' => true,
-    'name' => 'music_bus_text',
+    'name' => 'cultural_bus_text',
     'label' => "Μουσικό Λεωφορείο",
     'toolbarOptions' => [
     ['header' => [2, 3, 4, 5, 6, false]],

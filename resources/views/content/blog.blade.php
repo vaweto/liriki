@@ -5,29 +5,32 @@
 @stop
 
 @section('body-classes')
-    single
+    event
 @stop
 
 @section('content')
-    <div id="content" class="site-content" style="margin-bottom: 80px;">
-        <article class="post">
-            <h1 class="entry-title">{{$blog->title}}</h1>
-            <div class="center-relative clear">
-                <div class="post-num">
-                    <span class="current-post">{{$blog->created_at->day}}</span>
-                    <span class="separator">/</span>
-                    <span class="total-posts">{{$blog->created_at->month}}</span>
-                </div>
-                <div class="entry-content">
-                    <div class="content-1140 center-relative bottom-100 image-100">
-                        <img src="{!! $blog->image('cover','desktop') !!}" alt="{{$blog->title}}" />
-                    </div>
-                    <div class="content-970 center-relative">
-                        {!! $blog->content !!}
-                    </div>
-                </div>
-                <div class="clear"></div>
+    <main>
+        <div class="container">
+
+            <div class="flex-container">
+                <img width="100%" src="{!! $blog->image('cover','desktop') !!}" alt="{{$blog->title}}" />
             </div>
-        </article>
-    </div>
+            <div class="flex-container">
+                <div class="col-2-md">
+                    <h2>{{$blog->title}}</h2>
+
+                    {!! $blog->content !!}
+
+                </div>
+                <div class="col-1-md event-info">
+                    <div class="block">
+                        <h3>{{__('custom.date_created')}}</h3>
+                            <span class="current-post">{{$blog->created_at->day}}</span>
+                            <span class="separator">/</span>
+                            <span class="total-posts">{{$blog->created_at->month}}</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
 @stop

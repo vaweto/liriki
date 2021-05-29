@@ -10,45 +10,175 @@
 @stop
 
 @section('body-classes')
-    page homePage
+    home bg-grey2
     @stop
 
 @section('content')
 
-
-
-    <div class="loader">
-        <img src="{{asset('images/tenor.gif')}}" >
-    </div>
-    <div class="site-content content-hero">
-
-        <div class="content header-hero">
-            <div class="content__title content__title--center">
-                <div class="hero-text">
-                    <div id="rev-1" class="content__title__inner">
-                        <h1 class="entry-title">
-                            {!! $settings->byKey('home_text') !!}
-                        </h1>
-                        <p class="page-desc">{{$settings->byKey('sub_text')}}</p>
-                    </div>
+    <main>
+        <div class="container">
+            <div class="flex-container hero">
+                <div class="col-2-md align-right">
+                    <p>
+                        {!! $settings->byKey('home_text') !!}
+                    </p>
                 </div>
-                <div class="hero-video">
-                    <div id="rev-2" style="text-align: center" class="content__title__inner content__title__inner--offset-1">
-                        <video id="vid" autoplay muted loop controls>
-                            <source src="{{asset('assets/public/LYRIKOS_NOTOS_VIDEO_FINAL.mp4')}}" type="video/mp4">
-                            Your browser does not support the video tag.
-                        </video>
-                    </div>
+            </div>
+
+            <div class="flex-container">
+                <div class="col-2-md offset-left">
+                    <h2>ΜΟΥΣΙΚΑ ΠΑΡΑΜΥΘΙΑ</h2>
+                    <p>
+                        Λυρικός Νότος, ένα νέο φεστιβάλ γεμάτο συναυλίες, Μουσικά Παραμύθια, βιβλιοναγνώσεις σε διάλογο με μουσική,
+                        μιούζικαλ
+                        και ένα πολιτιστικό λεωφορείο με τραγουδιστές και μουσικούς. Λυρικός Νότος: 18, 19 και 20 Ιουνίου 2021 σε πλατείες
+                        και
+                        τα δημοτικά θέατρα Καλλιθέας, Παλαιού Φαλήρου και Αλίμου, με ελεύθερη είσοδο για το κοινό. Μια συνδιοργάνωση του
+                        Συνδέσμου Δήμων Νότιας Αττικής και της Εθνικής Λυρικής Σκηνής.
+                    </p>
+                </div>
+                <div class="col-1-md events">
+                    <h3>Προγραμματισμένες εκδηλώσεις:</h3>
+                    <ul>
+                        <li>
+                            <h4>ΟΝΕΙΡΟ ΧΕΙΜΩΝΙΑΤΙΚΗΣ ΗΜΕΡΑΣ</h4>
+                            <span>18/19/20.06.2021 - 21:00</span>
+                            <span>Άλιμος</span>
+                            <span>5o Δημοτικό Σχολείο Αλίμου</span>
+                        </li>
+                        <li>
+                            <h4>ΟΝΕΙΡΟ ΧΕΙΜΩΝΙΑΤΙΚΗΣ ΗΜΕΡΑΣ</h4>
+                            <span>18/19/20.06.2021 - 21:00</span>
+                            <span>Άλιμος</span>
+                            <span>5o Δημοτικό Σχολείο Αλίμου</span>
+                        </li>
+                        <li>
+                            <h4>ΟΝΕΙΡΟ ΧΕΙΜΩΝΙΑΤΙΚΗΣ ΗΜΕΡΑΣ</h4>
+                            <span>18/19/20.06.2021 - 21:00</span>
+                            <span>Άλιμος</span>
+                            <span>5o Δημοτικό Σχολείο Αλίμου</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="flex-container equal-cols">
+                <div class="column">
+                    <h2>ΜΟΥΣΙΚΑ ΠΑΡΑΜΥΘΙΑ</h2>
+                    <p>
+                        Λυρικός Νότος, ένα νέο φεστιβάλ γεμάτο συναυλίες, Μουσικά Παραμύθια, βιβλιοναγνώσεις σε διάλογο με μουσική,
+                        μιούζικαλ
+                        και ένα πολιτιστικό λεωφορείο με τραγουδιστές και μουσικούς. Λυρικός Νότος: 18, 19 και 20 Ιουνίου 2021 σε πλατείες
+                        και
+                        τα δημοτικά θέατρα Καλλιθέας, Παλαιού Φαλήρου και Αλίμου, με ελεύθερη είσοδο για το κοινό. Μια συνδιοργάνωση του
+                        Συνδέσμου Δήμων Νότιας Αττικής και της Εθνικής Λυρικής Σκηνής.
+                    </p>
+                </div>
+                <div class="column events">
+                    <h3>Προγραμματισμένες εκδηλώσεις:</h3>
+                    <ul>
+                        <li>
+                            <h4>ΟΝΕΙΡΟ ΧΕΙΜΩΝΙΑΤΙΚΗΣ ΗΜΕΡΑΣ</h4>
+                            <span>18/19/20.06.2021 - 21:00</span>
+                            <span>Άλιμος</span>
+                            <span>5o Δημοτικό Σχολείο Αλίμου</span>
+                        </li>
+                        <li>
+                            <h4>ΟΝΕΙΡΟ ΧΕΙΜΩΝΙΑΤΙΚΗΣ ΗΜΕΡΑΣ</h4>
+                            <span>18/19/20.06.2021 - 21:00</span>
+                            <span>Άλιμος</span>
+                            <span>5o Δημοτικό Σχολείο Αλίμου</span>
+                        </li>
+                        <li>
+                            <h4>ΟΝΕΙΡΟ ΧΕΙΜΩΝΙΑΤΙΚΗΣ ΗΜΕΡΑΣ</h4>
+                            <span>18/19/20.06.2021 - 21:00</span>
+                            <span>Άλιμος</span>
+                            <span>5o Δημοτικό Σχολείο Αλίμου</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="flex-container equal-cols">
+                <div class="column">
+                    <h2>ΜΟΥΣΙΚΑ ΠΑΡΑΜΥΘΙΑ</h2>
+                    <p>
+                        Λυρικός Νότος, ένα νέο φεστιβάλ γεμάτο συναυλίες, Μουσικά Παραμύθια, βιβλιοναγνώσεις σε διάλογο με μουσική,
+                        μιούζικαλ
+                        και ένα πολιτιστικό λεωφορείο με τραγουδιστές και μουσικούς. Λυρικός Νότος: 18, 19 και 20 Ιουνίου 2021 σε πλατείες
+                        και
+                        τα δημοτικά θέατρα Καλλιθέας, Παλαιού Φαλήρου και Αλίμου, με ελεύθερη είσοδο για το κοινό. Μια συνδιοργάνωση του
+                        Συνδέσμου Δήμων Νότιας Αττικής και της Εθνικής Λυρικής Σκηνής.
+                    </p>
+                </div>
+                <div class="column events">
+                    <h3>Προγραμματισμένες εκδηλώσεις:</h3>
+                    <ul>
+                        <li>
+                            <h4>ΟΝΕΙΡΟ ΧΕΙΜΩΝΙΑΤΙΚΗΣ ΗΜΕΡΑΣ</h4>
+                            <span>18/19/20.06.2021 - 21:00</span>
+                            <span>Άλιμος</span>
+                            <span>5o Δημοτικό Σχολείο Αλίμου</span>
+                        </li>
+                        <li>
+                            <h4>ΟΝΕΙΡΟ ΧΕΙΜΩΝΙΑΤΙΚΗΣ ΗΜΕΡΑΣ</h4>
+                            <span>18/19/20.06.2021 - 21:00</span>
+                            <span>Άλιμος</span>
+                            <span>5o Δημοτικό Σχολείο Αλίμου</span>
+                        </li>
+                        <li>
+                            <h4>ΟΝΕΙΡΟ ΧΕΙΜΩΝΙΑΤΙΚΗΣ ΗΜΕΡΑΣ</h4>
+                            <span>18/19/20.06.2021 - 21:00</span>
+                            <span>Άλιμος</span>
+                            <span>5o Δημοτικό Σχολείο Αλίμου</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="flex-container equal-cols">
+                <div class="column">
+                    <h2>ΜΟΥΣΙΚΑ ΠΑΡΑΜΥΘΙΑ</h2>
+                    <p>
+                        Λυρικός Νότος, ένα νέο φεστιβάλ γεμάτο συναυλίες, Μουσικά Παραμύθια, βιβλιοναγνώσεις σε διάλογο με μουσική,
+                        μιούζικαλ
+                        και ένα πολιτιστικό λεωφορείο με τραγουδιστές και μουσικούς. Λυρικός Νότος: 18, 19 και 20 Ιουνίου 2021 σε πλατείες
+                        και
+                        τα δημοτικά θέατρα Καλλιθέας, Παλαιού Φαλήρου και Αλίμου, με ελεύθερη είσοδο για το κοινό. Μια συνδιοργάνωση του
+                        Συνδέσμου Δήμων Νότιας Αττικής και της Εθνικής Λυρικής Σκηνής.
+                    </p>
+                </div>
+                <div class="column events">
+                    <h3>Προγραμματισμένες εκδηλώσεις:</h3>
+                    <ul>
+                        <li>
+                            <h4>ΟΝΕΙΡΟ ΧΕΙΜΩΝΙΑΤΙΚΗΣ ΗΜΕΡΑΣ</h4>
+                            <span>18/19/20.06.2021 - 21:00</span>
+                            <span>Άλιμος</span>
+                            <span>5o Δημοτικό Σχολείο Αλίμου</span>
+                        </li>
+                        <li>
+                            <h4>ΟΝΕΙΡΟ ΧΕΙΜΩΝΙΑΤΙΚΗΣ ΗΜΕΡΑΣ</h4>
+                            <span>18/19/20.06.2021 - 21:00</span>
+                            <span>Άλιμος</span>
+                            <span>5o Δημοτικό Σχολείο Αλίμου</span>
+                        </li>
+                        <li>
+                            <h4>ΟΝΕΙΡΟ ΧΕΙΜΩΝΙΑΤΙΚΗΣ ΗΜΕΡΑΣ</h4>
+                            <span>18/19/20.06.2021 - 21:00</span>
+                            <span>Άλιμος</span>
+                            <span>5o Δημοτικό Σχολείο Αλίμου</span>
+                        </li>
+                    </ul>
                 </div>
             </div>
         </div>
-
-    </div>
+    </main>
 
 
     @if(! empty($categories) )
         <div id="content" class="site-content">
             <ul class="grid" id="portfolio">
+                @dump($categories)
                 @foreach($categories  as $key => $category)
                     @php
                         $categoryName = $category['category'];
@@ -97,43 +227,4 @@
             <div class="clear"></div>
         </div>
     @endif
-@stop
-
-@section('scripts')
-    <script src={{asset("js/anime.min.js")}}></script>
-    <script src={{asset("js/header_anim.js")}}></script>
-
-    <script>
-        (function() {
-            // Fake loading.
-            setTimeout(init, 1999);
-
-            function init() {
-
-                //************************ Example 1 - reveal on load ********************************
-
-                var rev1 = new RevealFx(document.querySelector('#rev-1'), {
-                    revealSettings : {
-                        bgcolor: '#fafbf8',
-                        onCover: function(contentEl, revealerEl) {
-                            contentEl.style.opacity = 1;
-                        }
-                    }
-                });
-                rev1.reveal();
-
-                var rev2 = new RevealFx(document.querySelector('#rev-2'), {
-                    revealSettings : {
-                        bgcolor: '#302e36',
-                        delay: 250,
-                        onCover: function(contentEl, revealerEl) {
-                            contentEl.style.opacity = 1;
-                        }
-                    }
-                });
-                rev2.reveal();
-
-            }
-        })();
-    </script>
 @stop

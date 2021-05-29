@@ -82,9 +82,16 @@ class EventController extends Controller
             return $event->eventTimestamp;
         });
 
+        $eventsByYear = [];
+
+        $eventsByDate->map(function ($item) use (&$eventsByYear){
+            $eventsByYear[$item->eventDate->year][] = $item;
+        });
+
         return view('content.program_index',[
             'year' => $year,
-            'events' => $eventsByDate
+            'events' => $eventsByDate,
+            'yearEvents' => $eventsByYear
         ]);
     }
 

@@ -6,25 +6,25 @@
 @stop
 
 @section('body-classes')
-    single
+    organization bg-grey3
 @stop
 
 
 @section('content')
-    <div id="content" class="site-content">
-        <article class="post">
-            <h1 class="entry-title">{{$page->title}}</h1>
-            <div class="center-relative clear">
-                <div class="entry-content">
-                    <div class="content-750 center-relative image-100">
+    <main>
+        <h2>{{$page->title}}</h2>
+        <div class="container">
+            <div class="flex-container">
+                <div class="col-2-md align-right">
                         {!! $page->content !!}
-                    </div>
-
-                    {!! $page->renderBlocks() !!}
-
                 </div>
-                <div class="clear"></div>
             </div>
-        </article>
-    </div>
+
+            <div class="flex-container">
+                <div class="col-2-md">
+                    {!! $page->renderBlocks() !!}
+                </div>
+            </div>
+        </div>
+    </main>
 @stop

@@ -5,37 +5,26 @@
 @stop
 
 @section('body-classes')
-    single single-portfolio
+    landmarks bg-yellow1
 @stop
 
 
 @section('content')
-    <div id="content" class="site-content">
-        <article class="post">
-            <h1 class="entry-title">{{$placemark->title}}</h1>
-            <div class="content-1140 center-relative bottom-100">
-                <div class="center-relative clear">
-                    <div class="entry-content">
-                        <div class="top-content image-100">
-                            <img src="{!! $placemark->image('cover','desktop') !!}" alt="{{$placemark->title}}" />
-                        </div>
-                        <div class="entry-content center-relative">
-                            <div class="portfolio-item-info">
-                                <div class="item-info-content">
-                                    <img style="max-width: 100%" src="{!! $placemark->image('logo','flexible') !!}" alt="{{$placemark->title}}" />
-                                    <div class="clear"></div>
-                                </div>
-                            </div>
-                            <div class="content-wrapper">
-                                {!! $placemark->content !!}
-                            </div>
-                            <div class="clear"></div>
-                        </div>
-                        {!! $placemark->renderBlocks() !!}
-                    </div>
-                    <div class="clear"></div>
+    <main>
+        <div class="container">
+            <div class="flex-container">
+                <div class="col-2-md">
+                    <h2>{{$placemark->title}}</h2>
+                    <p>
+                        {!! $placemark->content !!}
+                    </p>
+                </div>
+                <div class="col-1-md">
+                    <img src="{!! $placemark->image('cover','desktop') !!}" alt="{{$placemark->title}}" />
                 </div>
             </div>
-        </article>
-    </div>
+            {!! $placemark->renderBlocks(true, ['class' => 1]) !!}
+
+        </div>
+    </main>
 @stop

@@ -41,7 +41,7 @@
     ])
 
     @formField('block_editor', [
-        'blocks' => ['text_translated', 'image', 'text_quote', 'gallery', 'youtube_link']
+        'blocks' => ['text_translated', 'image', 'text_quote', 'youtube_link']
     ])
 
 @stop

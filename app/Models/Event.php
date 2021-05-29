@@ -65,6 +65,12 @@ class Event extends Model
             ]
         ],
         'gallery' => [
+            'landscape' => [
+                [
+                    'name' => 'landscape',
+                    'ratio' => 560 / 360,
+                ],
+            ],
             'free' => [
                 [
                     'name' => 'free',

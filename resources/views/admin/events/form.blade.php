@@ -77,6 +77,36 @@
         'note' => 'Hint message`',
     ])
 
+    @formField('wysiwyg', [
+        'translated' => true,
+        'name' => 'factors',
+        'label' => 'Συντελεστες',
+        'toolbarOptions' => [
+        ['header' => [2, 3, 4, 5, 6, false]],
+        'bold',
+        'italic',
+        'underline',
+        'strike',
+        ["script" => "super"],
+        ["script" => "sub"],
+        "blockquote",
+        "code-block",
+        ['list' => 'ordered'],
+        ['list' => 'bullet'],
+        ['indent' => '-1'],
+        ['indent' => '+1'],
+        ["align" => []],
+        ["direction" => "rtl"],
+        'link',
+        "clean",
+        ],
+        'placeholder' => 'Content Text',
+        'maxlength' => 5000,
+        'editSource' => true,
+        'note' => 'Hint message`',
+    ])
+
+
     @formField('block_editor', [
         'blocks' => ['event_info']
     ])
@@ -88,22 +118,22 @@
         'required' => true,
     ])
 
-    @formField('input', [
-    'name' => 'main_color',
-    'label' => 'Main color',
-    'maxlength' => 10,
-    ])
-
-    @formField('input', [
-    'name' => 'secondary_color',
-    'label' => 'Secondary color',
-    'maxlength' => 10,
-    ])
-
     @formField('medias', [
         'name' => 'gallery',
         'label' => 'Gallery',
         'max' => 10,
         'note' => 'Minimum image width: 1500px'
+    ])
+
+    @formField('files', [
+        'name' => 'audio_file',
+        'label' => 'Audio file',
+        'note' => 'Add one file (per language)',
+    ])
+
+    @formField('files', [
+        'name' => 'pdf_file',
+        'label' => 'Pdf file',
+        'note' => 'Add one file (per language)',
     ])
 @stop

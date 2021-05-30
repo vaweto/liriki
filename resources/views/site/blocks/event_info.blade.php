@@ -2,4 +2,7 @@
 $date = \Carbon\Carbon::createFromFormat('Y-m-d H:i',$block->input('event_date'));
 
 @endphp
-<p class="info-code-content"> {{ $date->format('d-m-Y H:i') }}</p>
+
+<span class="span-brake">{{ $date->format('d-m-Y H:i') }}</span>
+<span class="span-brake">{!! $block->translatedInput('place') !!}</span>
+<br>

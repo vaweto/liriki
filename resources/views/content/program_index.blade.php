@@ -30,7 +30,7 @@
                                             </a></h3>
                                         <span>{{__('custom.' . $event->event->category)}}</span>
                                         <span>{{ $event->eventDate->format('d-m-Y H:i') }}</span>
-                                        <span>{{$event->event->subtitle}}</span>
+                                        <span>{{$event->translatedInput('place')}}</span>
                                     </div>
                                 </div>
                             </div>

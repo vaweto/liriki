@@ -14,5 +14,6 @@ class EventTranslation extends Model
         'active',
         'content',
         'subtitle',
+        'factors'
     ];
 }

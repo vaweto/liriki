@@ -64,20 +64,23 @@
                     {!! $event->renderBlocks() !!}
                 </div>
                 <div class="block">
-                    <h3>{{__('custom.performance_factors')}}</h3>
-                    <p>
-                        <span>Μουσική σύνθεση: </span>
-                        <span>Νίκος Κούκος</span>
-                    </p>
-                    <p>
-                        <span>Μουσική σύνθεση: </span>
-                        <span>Νίκος Κούκος</span>
-                    </p>
-                    <p>
-                        <span>Μουσική σύνθεση: </span>
-                        <span>Νίκος Κούκος</span>
-                    </p>
+                    {!! $event->factors !!}
                 </div>
+                @if(!is_null($event->file('audio_file')) || !is_null($event->file('pdf_file')))
+                    <div class="block">
+                        <h3>{{__('custom.files')}}</h3>
+                        @if(!is_null($event->file('audio_file')))
+                            <p>
+                                <a href='{{$event->file('audio_file')}}' download>{{__('custom.audio')}}</a>
+                            </p>
+                        @endif
+                        @if(!is_null($event->file('pdf_file')))
+                            <p>
+                                <a href='{{$event->file('pdf_file')}}' download>Pdf</a>
+                            </p>
+                        @endif
+                    </div>
+                @endif
             </div>
         </div>
     </div>

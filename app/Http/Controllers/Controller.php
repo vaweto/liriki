@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Helpers\El_Str;
 use App\Models\Event;
 use App\Models\Menu;
 use App\Repositories\MenuRepository;
@@ -69,8 +70,9 @@ class Controller extends BaseController
         if(!is_null($headerMenu)) {
             $headerMenu = $headerMenu->first();
         }
+        $strHelper = new El_Str();
 
-
+        View::share ( 'strHelper', $strHelper );
         View::share ( 'settings', app(\A17\Twill\Repositories\SettingRepository::class) );
         View::share ( 'seoImage', $seoImage );
         View::share ( 'logo', $logo );

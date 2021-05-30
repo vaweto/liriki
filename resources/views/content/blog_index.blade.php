@@ -30,7 +30,7 @@
                     </div>
             @empty
                 <div class='flex-container' style="padding: 20%">
-                    <h3>{{__('message.no_blogs_yet')}}</h3>
+                    <h3 style="width: 100%; text-align: center">{{__('message.no_blogs_yet')}}</h3>
                 </div>
             @endforelse
             <div class='flex-container' style="text-align: center">

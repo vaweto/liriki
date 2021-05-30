@@ -24,207 +24,117 @@
                     </p>
                 </div>
             </div>
-
-            <div class="flex-container">
-                <div class="col-2-md offset-left">
-                    <h2>ΜΟΥΣΙΚΑ ΠΑΡΑΜΥΘΙΑ</h2>
-                    <p>
-                        Λυρικός Νότος, ένα νέο φεστιβάλ γεμάτο συναυλίες, Μουσικά Παραμύθια, βιβλιοναγνώσεις σε διάλογο με μουσική,
-                        μιούζικαλ
-                        και ένα πολιτιστικό λεωφορείο με τραγουδιστές και μουσικούς. Λυρικός Νότος: 18, 19 και 20 Ιουνίου 2021 σε πλατείες
-                        και
-                        τα δημοτικά θέατρα Καλλιθέας, Παλαιού Φαλήρου και Αλίμου, με ελεύθερη είσοδο για το κοινό. Μια συνδιοργάνωση του
-                        Συνδέσμου Δήμων Νότιας Αττικής και της Εθνικής Λυρικής Σκηνής.
-                    </p>
-                </div>
-                <div class="col-1-md events">
-                    <h3>Προγραμματισμένες εκδηλώσεις:</h3>
-                    <ul>
-                        <li>
-                            <h4>ΟΝΕΙΡΟ ΧΕΙΜΩΝΙΑΤΙΚΗΣ ΗΜΕΡΑΣ</h4>
-                            <span>18/19/20.06.2021 - 21:00</span>
-                            <span>Άλιμος</span>
-                            <span>5o Δημοτικό Σχολείο Αλίμου</span>
-                        </li>
-                        <li>
-                            <h4>ΟΝΕΙΡΟ ΧΕΙΜΩΝΙΑΤΙΚΗΣ ΗΜΕΡΑΣ</h4>
-                            <span>18/19/20.06.2021 - 21:00</span>
-                            <span>Άλιμος</span>
-                            <span>5o Δημοτικό Σχολείο Αλίμου</span>
-                        </li>
-                        <li>
-                            <h4>ΟΝΕΙΡΟ ΧΕΙΜΩΝΙΑΤΙΚΗΣ ΗΜΕΡΑΣ</h4>
-                            <span>18/19/20.06.2021 - 21:00</span>
-                            <span>Άλιμος</span>
-                            <span>5o Δημοτικό Σχολείο Αλίμου</span>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-
-            <div class="flex-container equal-cols">
-                <div class="column">
-                    <h2>ΜΟΥΣΙΚΑ ΠΑΡΑΜΥΘΙΑ</h2>
-                    <p>
-                        Λυρικός Νότος, ένα νέο φεστιβάλ γεμάτο συναυλίες, Μουσικά Παραμύθια, βιβλιοναγνώσεις σε διάλογο με μουσική,
-                        μιούζικαλ
-                        και ένα πολιτιστικό λεωφορείο με τραγουδιστές και μουσικούς. Λυρικός Νότος: 18, 19 και 20 Ιουνίου 2021 σε πλατείες
-                        και
-                        τα δημοτικά θέατρα Καλλιθέας, Παλαιού Φαλήρου και Αλίμου, με ελεύθερη είσοδο για το κοινό. Μια συνδιοργάνωση του
-                        Συνδέσμου Δήμων Νότιας Αττικής και της Εθνικής Λυρικής Σκηνής.
-                    </p>
-                </div>
-                <div class="column events">
-                    <h3>Προγραμματισμένες εκδηλώσεις:</h3>
-                    <ul>
-                        <li>
-                            <h4>ΟΝΕΙΡΟ ΧΕΙΜΩΝΙΑΤΙΚΗΣ ΗΜΕΡΑΣ</h4>
-                            <span>18/19/20.06.2021 - 21:00</span>
-                            <span>Άλιμος</span>
-                            <span>5o Δημοτικό Σχολείο Αλίμου</span>
-                        </li>
-                        <li>
-                            <h4>ΟΝΕΙΡΟ ΧΕΙΜΩΝΙΑΤΙΚΗΣ ΗΜΕΡΑΣ</h4>
-                            <span>18/19/20.06.2021 - 21:00</span>
-                            <span>Άλιμος</span>
-                            <span>5o Δημοτικό Σχολείο Αλίμου</span>
-                        </li>
-                        <li>
-                            <h4>ΟΝΕΙΡΟ ΧΕΙΜΩΝΙΑΤΙΚΗΣ ΗΜΕΡΑΣ</h4>
-                            <span>18/19/20.06.2021 - 21:00</span>
-                            <span>Άλιμος</span>
-                            <span>5o Δημοτικό Σχολείο Αλίμου</span>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-
-            <div class="flex-container equal-cols">
-                <div class="column">
-                    <h2>ΜΟΥΣΙΚΑ ΠΑΡΑΜΥΘΙΑ</h2>
-                    <p>
-                        Λυρικός Νότος, ένα νέο φεστιβάλ γεμάτο συναυλίες, Μουσικά Παραμύθια, βιβλιοναγνώσεις σε διάλογο με μουσική,
-                        μιούζικαλ
-                        και ένα πολιτιστικό λεωφορείο με τραγουδιστές και μουσικούς. Λυρικός Νότος: 18, 19 και 20 Ιουνίου 2021 σε πλατείες
-                        και
-                        τα δημοτικά θέατρα Καλλιθέας, Παλαιού Φαλήρου και Αλίμου, με ελεύθερη είσοδο για το κοινό. Μια συνδιοργάνωση του
-                        Συνδέσμου Δήμων Νότιας Αττικής και της Εθνικής Λυρικής Σκηνής.
-                    </p>
-                </div>
-                <div class="column events">
-                    <h3>Προγραμματισμένες εκδηλώσεις:</h3>
-                    <ul>
-                        <li>
-                            <h4>ΟΝΕΙΡΟ ΧΕΙΜΩΝΙΑΤΙΚΗΣ ΗΜΕΡΑΣ</h4>
-                            <span>18/19/20.06.2021 - 21:00</span>
-                            <span>Άλιμος</span>
-                            <span>5o Δημοτικό Σχολείο Αλίμου</span>
-                        </li>
-                        <li>
-                            <h4>ΟΝΕΙΡΟ ΧΕΙΜΩΝΙΑΤΙΚΗΣ ΗΜΕΡΑΣ</h4>
-                            <span>18/19/20.06.2021 - 21:00</span>
-                            <span>Άλιμος</span>
-                            <span>5o Δημοτικό Σχολείο Αλίμου</span>
-                        </li>
-                        <li>
-                            <h4>ΟΝΕΙΡΟ ΧΕΙΜΩΝΙΑΤΙΚΗΣ ΗΜΕΡΑΣ</h4>
-                            <span>18/19/20.06.2021 - 21:00</span>
-                            <span>Άλιμος</span>
-                            <span>5o Δημοτικό Σχολείο Αλίμου</span>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-            <div class="flex-container equal-cols">
-                <div class="column">
-                    <h2>ΜΟΥΣΙΚΑ ΠΑΡΑΜΥΘΙΑ</h2>
-                    <p>
-                        Λυρικός Νότος, ένα νέο φεστιβάλ γεμάτο συναυλίες, Μουσικά Παραμύθια, βιβλιοναγνώσεις σε διάλογο με μουσική,
-                        μιούζικαλ
-                        και ένα πολιτιστικό λεωφορείο με τραγουδιστές και μουσικούς. Λυρικός Νότος: 18, 19 και 20 Ιουνίου 2021 σε πλατείες
-                        και
-                        τα δημοτικά θέατρα Καλλιθέας, Παλαιού Φαλήρου και Αλίμου, με ελεύθερη είσοδο για το κοινό. Μια συνδιοργάνωση του
-                        Συνδέσμου Δήμων Νότιας Αττικής και της Εθνικής Λυρικής Σκηνής.
-                    </p>
-                </div>
-                <div class="column events">
-                    <h3>Προγραμματισμένες εκδηλώσεις:</h3>
-                    <ul>
-                        <li>
-                            <h4>ΟΝΕΙΡΟ ΧΕΙΜΩΝΙΑΤΙΚΗΣ ΗΜΕΡΑΣ</h4>
-                            <span>18/19/20.06.2021 - 21:00</span>
-                            <span>Άλιμος</span>
-                            <span>5o Δημοτικό Σχολείο Αλίμου</span>
-                        </li>
-                        <li>
-                            <h4>ΟΝΕΙΡΟ ΧΕΙΜΩΝΙΑΤΙΚΗΣ ΗΜΕΡΑΣ</h4>
-                            <span>18/19/20.06.2021 - 21:00</span>
-                            <span>Άλιμος</span>
-                            <span>5o Δημοτικό Σχολείο Αλίμου</span>
-                        </li>
-                        <li>
-                            <h4>ΟΝΕΙΡΟ ΧΕΙΜΩΝΙΑΤΙΚΗΣ ΗΜΕΡΑΣ</h4>
-                            <span>18/19/20.06.2021 - 21:00</span>
-                            <span>Άλιμος</span>
-                            <span>5o Δημοτικό Σχολείο Αλίμου</span>
-                        </li>
-                    </ul>
-                </div>
-            </div>
+            @foreach($categories  as $key => $category)
+                @php
+                    $categoryName = $category['category'];
+                    $categoryImage = $category['image'];
+                @endphp
+                @if($key === 0)
+                    <div class="flex-container">
+                        <div class="col-2-md">
+                            <h2 class="big-font">{{ $strHelper->strtoupper_no_accent(__('custom.'.$categoryName))}}</h2>
+                            <p>
+                            @if(! is_null($settings->byKey($categoryName.'_text')))
+                                    {!! $settings->byKey($categoryName.'_text') !!}
+                            @endif
+                            </p>
+                        </div>
+                        <div class="col-1-md events">
+                            <h3 >{{__('custom.scheduled_events')}}</h3>
+                            <ul>
+                                @forelse($category['events'] as $event)
+                                    <li>
+                                        <h4 class="big-font"><a href="/events/{{$event->slug}}">{{$strHelper->strtoupper_no_accent($event->title)}}</a></h4>
+                                        {!! $event->renderBlocks() !!}
+                                    </li>
+                                @empty
+                                    <li>
+                                        {{__('message.no_events_yet')}}
+                                    </li>
+                                @endforelse
+                            </ul>
+                        </div>
+                    </div>
+                @elseif($key === 1)
+                    <div class="flex-container ">
+                        <div class="col-2-md offset-left">
+                            <h2 class="big-font">{{ $strHelper->strtoupper_no_accent(__('custom.'.$categoryName))}}</h2>
+                            <p>
+                                @if(! is_null($settings->byKey($categoryName.'_text')))
+                                    {!! $settings->byKey($categoryName.'_text') !!}
+                                @endif
+                            </p>
+                        </div>
+                        <div class="col-1-md events">
+                            <h3>{{__('custom.scheduled_events')}}</h3>
+                            <ul>
+                                @forelse($category['events'] as $event)
+                                    <li>
+                                        <h4 class="big-font"><a href="/events/{{$event->slug}}">{{$strHelper->strtoupper_no_accent($event->title)}}</a></h4>
+                                        {!! $event->renderBlocks() !!}
+                                    </li>
+                                @empty
+                                    <li>
+                                        {{__('message.no_events_yet')}}
+                                    </li>
+                                @endforelse
+                            </ul>
+                        </div>
+                    </div>
+                @elseif($key === 2 || $key ===4)
+                    <div class="flex-container equal-cols">
+                        <div class="column">
+                            <h2 class="big-font">{{ $strHelper->strtoupper_no_accent(__('custom.'.$categoryName))}}</h2>
+                            <p>
+                                @if(! is_null($settings->byKey($categoryName.'_text')))
+                                    {!! $settings->byKey($categoryName.'_text') !!}
+                                @endif
+                            </p>
+                        </div>
+                        <div class="column events">
+                            <h3>{{__('custom.scheduled_events')}}</h3>
+                            <ul>
+                                @forelse($category['events'] as $event)
+                                    <li>
+                                        <h4 class="big-font"><a href="/events/{{$event->slug}}">{{$strHelper->strtoupper_no_accent($event->title)}}</a></h4>
+                                        {!! $event->renderBlocks() !!}
+                                    </li>
+                                @empty
+                                    <li>
+                                        {{__('message.no_events_yet')}}
+                                    </li>
+                                @endforelse
+                            </ul>
+                        </div>
+                    </div>
+                @elseif($key === 3)
+                    <div class="flex-container reversed">
+                        <div class="col-2-md offset-right">
+                            <h2 class="big-font">{{ $strHelper->strtoupper_no_accent(__('custom.'.$categoryName))}}</h2>
+                            <p>
+                                @if(! is_null($settings->byKey($categoryName.'_text')))
+                                    {!! $settings->byKey($categoryName.'_text') !!}
+                                @endif
+                            </p>
+                        </div>
+                        <div class="col-1-md events">
+                            <h3>{{__('custom.scheduled_events')}}</h3>
+                            <ul>
+                                @forelse($category['events'] as $event)
+                                    <li>
+                                        <h4 class="big-font"><a href="/events/{{$event->slug}}">{{$strHelper->strtoupper_no_accent($event->title)}}</a></h4>
+                                        {!! $event->renderBlocks() !!}
+                                    </li>
+                                @empty
+                                    <li>
+                                        {{__('message.no_events_yet')}}
+                                    </li>
+                                @endforelse
+                            </ul>
+                        </div>
+                    </div>
+                @endif
+            @endforeach
         </div>
     </main>
-
-
-    @if(! empty($categories) )
-        <div id="content" class="site-content">
-            <ul class="grid" id="portfolio">
-                @dump($categories)
-                @foreach($categories  as $key => $category)
-                    @php
-                        $categoryName = $category['category'];
-                        $categoryImage = $category['image'];
-                    @endphp
-
-                    @if($key === 0 || $key === 3 )
-                        <li class="grid-item element-item animate">
-                            <div class="item-wrapper portrait-img-grid">
-                                <a  href="category/{{$categoryName}}/events">
-                                    <img  class="portrait" src="{{$categoryImage->image($categoryName .'_image','portrait')}}" alt="" />
-                                </a>
-                                <div class="portfolio-text-holder">
-                                    <div class="portfolio-info">
-                                        <a class="portfolio-text" href="category/{{$categoryName}}/events">{{ __('custom.'.$categoryName)}}</a>
-                                        <p class="portfolio-arrow">
-                                            <a href="category/{{$categoryName}}/events">
-                                                <img src="images/opta_arrow@2x.png" alt="">
-                                            </a>
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                        </li>
-                    @else
-                        <li class="grid-item element-item animate">
-                            <div class="item-wrapper">
-                                <a href="category/{{$categoryName}}/events">
-                                    <img  src="{{$categoryImage->image($categoryName .'_image','landscape')}}" alt="" />
-                                </a>
-                                <div class="portfolio-text-holder">
-                                    <div class="portfolio-info">
-                                        <a class="portfolio-text" href="category/{{$categoryName}}/events">{{ __('custom.'.$categoryName)}}</a>
-                                        <p class="portfolio-arrow">
-                                            <a href="category/{{$categoryName}}/events">
-                                                <img src="images/opta_arrow@2x.png" alt="">
-                                            </a>
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                        </li>
-                    @endif
-                @endforeach
-            </ul>
-            <div class="clear"></div>
-        </div>
-    @endif
 @stop

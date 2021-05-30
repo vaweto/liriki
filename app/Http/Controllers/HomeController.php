@@ -46,6 +46,7 @@ class HomeController extends Controller
             if(!is_null($image) && $image->medias->count() > 0 ) {
                 $categoriesImages[$key]['category'] = $category;
                 $categoriesImages[$key]['image'] = $image;
+                $categoriesImages[$key]['events'] = $this->eventRepository->byCategory($category);
                 $key++;
             }
         }

@@ -15,7 +15,9 @@
             <img src={{$footerImg3}} alt="">
         @endif
         @if(! is_null($footerImg4))
-            <a href="https://www.espa.gr/el/Pages/Default.aspx" target="_blank"><img src={{$footerImg4}} alt="ΕΣΠΑ"></a>
+            <a href="https://www.espa.gr/el/Pages/Default.aspx" target="_blank">
+                <img src={{$footerImg4}} alt="ΕΣΠΑ">
+            </a>
         @endif
     </div>
 </div>

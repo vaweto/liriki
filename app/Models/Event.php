@@ -32,12 +32,17 @@ class Event extends Model
         'secondary_color'
     ];
 
+
+
     public $translatedAttributes = [
         'title',
         'active',
         'content',
         'subtitle',
+        'factors'
     ];
+
+    public $filesParams = ['audio_file', 'pdf_file']; // a list of file roles
 
     public $slugAttributes = [
         'title',

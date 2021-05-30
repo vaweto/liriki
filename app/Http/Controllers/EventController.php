@@ -63,8 +63,10 @@ class EventController extends Controller
         $eventsByDate = new Collection();
         $events->map(function ($item) use (&$eventsByDate){
            $item->blocks->map(function($eventDate) use (&$item, &$eventsByDate){
+
                $eventDate->event = $item;
                $eventDate->eventDate =  Carbon::createFromFormat('Y-m-d H:i',$eventDate->content['event_date']);
+               $eventDate->place =  (isset($eventDate->content['place'])) ? $eventDate->content['place'] : '';
                $eventDate->eventTimestamp =  Carbon::createFromFormat('Y-m-d H:i',$eventDate->content['event_date'])->timestamp;
                $eventDate->passDate =  (Carbon::createFromFormat('Y-m-d H:i',$eventDate->content['event_date']) < Carbon::now()->addDay()) ? true : false;
                $eventsByDate->push($eventDate);

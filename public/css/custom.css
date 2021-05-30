@@ -23,6 +23,10 @@ footer .column a img {
     max-height: inherit;
 }
 
+footer .column:last-of-type a:last-child {
+    margin-left: auto;
+}
+
 .embed-container
 {
     position: relative;
@@ -51,6 +55,11 @@ header .i18-btn-el {
     padding-right: 5px;
 }
 
+.big-font {
+    font-size: 32px;
+    line-height: 32px;
+}
+
 @media (max-width: 992px) {
     header .i18-btn-el {
         bottom: -40px;
@@ -59,4 +68,20 @@ header .i18-btn-el {
         font-size: 19px;
         padding-right: 5px;
     }
+
+    .big-font {
+        font-size: 24px;
+        line-height: 24px;
+    }
+
+
+}
+@media (min-width: 992px) {
+    .event .event-info {
+        padding-top: 50px;
+    }
+}
+
+.span-brake {
+    display: block;
 }

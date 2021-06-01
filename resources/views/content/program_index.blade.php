@@ -45,7 +45,7 @@
                     @endforelse
                 </div>
             @empty
-                <h2 style="text-transform: uppercase">{{__('custom.program')}} {{$key}}</h2>
+                <h2 style="text-transform: uppercase">{{__('custom.program')}} {{$year}}</h2>
                 <div style="padding: 20%">
                     <h3>{{__('message.no_events_yet')}}</h3>
                 </div>

@@ -5,7 +5,7 @@
 @stop
 
 @section('body-classes')
-    single
+    landmarks
 @stop
 
 @section('content')

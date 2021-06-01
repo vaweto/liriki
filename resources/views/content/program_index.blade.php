@@ -11,7 +11,7 @@
 @section('content')
     <main>
         <div class="container">
-            @foreach($yearEvents as $key => $events)
+            @forelse($yearEvents as $key => $events)
                 <h2 style="text-transform: uppercase">{{__('custom.program')}} {{$key}}</h2>
                 @php
                     $count = 0
@@ -44,7 +44,12 @@
                         </div>
                     @endforelse
                 </div>
-             @endforeach
+            @empty
+                <h2 style="text-transform: uppercase">{{__('custom.program')}} {{$key}}</h2>
+                <div style="padding: 20%">
+                    <h3>{{__('message.no_events_yet')}}</h3>
+                </div>
+             @endforelse
         </div>
     </main>
 @stop

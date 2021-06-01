@@ -399,95 +399,95 @@ footer .column:last-of-type img:last-child {
 }
 
 .menu .bg-color1 {
-    color: #FF8080;
+    color: #FF8080!important;
 }
 
 .menu .bg-color1:hover, .menu .bg-color1:active, .menu .bg-color1:focus {
-    color: #FF8080;
+    color: #FF8080!important;
 }
 
 .menu .bg-color2 {
-    color: #FFBF80;
+    color: #FFBF80!important;
 }
 
 .menu .bg-color2:hover, .menu .bg-color2:active, .menu .bg-color2:focus {
-    color: #FFBF80;
+    color: #FFBF80!important;
 }
 
 .menu .bg-color3 {
-    color: #FFFF80;
+    color: #FFFF80!important;
 }
 
 .menu .bg-color3:hover, .menu .bg-color3:active, .menu .bg-color3:focus {
-    color: #FFFF80;
+    color: #FFFF80!important;
 }
 
 .menu .bg-color4 {
-    color: #FFFFA0;
+    color: #FFFFA0!important;
 }
 
 .menu .bg-color4:hover, .menu .bg-color4:active, .menu .bg-color4:focus {
-    color: #FFFFA0;
+    color: #FFFFA0!important;
 }
 
 .menu .bg-color5 {
-    color: #FFFFB9;
+    color: #FFFFB9!important;
 }
 
 .menu .bg-color5:hover, .menu .bg-color5:active, .menu .bg-color5:focus {
-    color: #FFFFB9;
+    color: #FFFFB9!important;
 }
 
 .menu .bg-color6 {
-    color: #FFFFD5;
+    color: #FFFFD5!important;
 }
 
 .menu .bg-color6:hover, .menu .bg-color6:active, .menu .bg-color6:focus {
-    color: #FFFFD5;
+    color: #FFFFD5!important;
 }
 
 .menu .bg-color7 {
-    color: #BFFF80;
+    color: #BFFF80!important;
 }
 
 .menu .bg-color7:hover, .menu .bg-color7:active, .menu .bg-color7:focus {
-    color: #BFFF80;
+    color: #BFFF80!important;
 }
 
 .menu .bg-color8 {
-    color: #80FF80;
+    color: #80FF80!important;
 }
 
 .menu .bg-color8:hover, .menu .bg-color8:active, .menu .bg-color8:focus {
-    color: #80FF80;
+    color: #80FF80!important;
 }
 
 .menu .bg-color9 {
-    color: #80FFBF;
+    color: #80FFBF!important;
 }
 
 .menu .bg-color9:hover, .menu .bg-color9:active, .menu .bg-color9:focus {
-    color: #80FFBF;
+    color: #80FFBF!important;
 }
 
 .menu .bg-color10 {
-    color: #80FFFF;
+    color: #80FFFF!important;
 }
 
 .menu .bg-color10:hover, .menu .bg-color10:active, .menu .bg-color10:focus {
-    color: #80FFFF;
+    color: #80FFFF!important;
 }
 
 .menu .bg-color11 {
-    color: #82C2FF;
+    color: #82C2FF!important;
 }
 
 .menu .bg-color11:hover, .menu .bg-color11:active, .menu .bg-color11:focus {
-    color: #82C2FF;
+    color: #82C2FF!important;
 }
 
 .menu .bg-color12 {
-    color: #8080FF;
+    color: #8080FF!important;
 }
 
 .menu .bg-color12:hover, .menu .bg-color12:active, .menu .bg-color12:focus {
@@ -495,11 +495,11 @@ footer .column:last-of-type img:last-child {
 }
 
 .menu .bg-color13 {
-    color: #BF80FF;
+    color: #BF80FF!important;
 }
 
 .menu .bg-color13:hover, .menu .bg-color13:active, .menu .bg-color13:focus {
-    color: #BF80FF;
+    color: #BF80FF;!important
 }
 
 @media (min-width: 600px) {

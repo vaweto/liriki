@@ -2,8 +2,8 @@
 
 
 return [
-    'music_tales' => 'Music Tales',
-    'music_events' => 'Music Events',
+    'music_tales' => 'Musical Tales',
+    'music_events' => 'Concerts',
     'big_productions' => 'Large Productions GNO',
     'booklovers_point' => "Booklover's Point",
     'cultural_bus' => 'Cultural Bus',
@@ -15,5 +15,6 @@ return [
     'scheduled_events' => 'Scheduled events',
     'program' => 'PROGRAM',
     'files' => 'Files',
-    'audio' => 'Audio'
+    'audio' => 'Audio',
+    'lirikos_notos_upper' => 'LIRIKOS NOTOS',
 ];

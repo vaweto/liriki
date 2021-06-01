@@ -26,7 +26,8 @@ return [
     'scheduled_events' => 'Προγραμματισμένες εκδηλώσεις',
     'program' => 'ΠΡΟΓΡΑΜΜΑ',
     'files' => 'Αρχεία',
-    'audio' => 'Αρχείo Ήχου'
+    'audio' => 'Αρχείo Ήχου',
+    'lirikos_notos_upper' => 'ΛΥΡΙΚΟΣ ΝΟΤΟΣ',
 
 ];
 

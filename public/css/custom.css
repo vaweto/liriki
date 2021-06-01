@@ -55,6 +55,27 @@ header .i18-btn-el {
     padding-right: 5px;
 }
 
+.menu .i18-btn.i18-btn-el {
+    position: absolute;
+    bottom: -25px;
+    left: 0!important;
+    font-size: 11px;
+}
+
+.menu .i18-btn {
+    position: absolute;
+    bottom: -25px;
+    left: 25px!important;
+    font-size: 11px;
+}
+
+@media (min-width: 600px) {
+    .menu .i18-btn {
+        bottom: -32px!important;
+    }
+}
+
+
 .big-font {
     font-size: 32px;
     line-height: 32px;
@@ -84,4 +105,39 @@ header .i18-btn-el {
 
 .span-brake {
     display: block;
+}
+
+.ctas a {
+    color: white!important;
+}
+
+@media (min-width: 600px) {
+
+    .menu ul.pos-1 {
+        margin: 0 0 0 20px;
+    }
+
+    .menu ul.pos-2 {
+        margin: 0 0 0 40px;
+    }
+
+    .menu ul.pos-3 {
+        margin: 0 0 0 60px;
+    }
+
+    .menu ul.pos-4 {
+        margin: 0 0 0 80px;
+    }
+
+    .menu ul.pos-5 {
+        margin: 0 0 0 100px;
+    }
+
+    .menu ul.pos-6 {
+        margin: 0 0 0 120px;
+    }
+
+    .menu ul.pos-7 {
+        margin: 0 0 0 140px;
+    }
 }

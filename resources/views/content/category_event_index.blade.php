@@ -9,7 +9,50 @@
 @stop
 
 @section('content')
-    <div id="content" class="site-content">
+    <main>
+        <div class="container">
+            <div class="flex-container">
+                <div class="col-2-md">
+                    <h2>{{$title}}</h2>
+                    <p>
+                    @if(! is_null($settings->byKey($categorySlug.'_text')))
+                            {!! $settings->byKey($categorySlug.'_text') !!}
+                    @endif
+                    </p>
+                </div>
+                <div class="col-1-md">
+
+                </div>
+            </div>
+            @forelse($events  as $key => $event)
+            @if($key % 2 === 0)
+                <div class="flex-container">
+            @else
+                <div class="flex-container reversed">
+            @endif
+                    <div class="col-2-md">
+                        <h2><a href="/events/{{$event->slug}}">{{$event->title}}</a></h2>
+                    </div>
+                    <div class="col-1-md">
+                        <img class="portrait" src="{{$event->image('cover','landscape')}}" alt="{{$event->title}}" />
+                    </div>
+                </div>
+            @empty
+                <div style="padding: 20%">
+                    <h3>{{__('message.no_events_yet')}}</h3>
+                </div>
+            @endforelse
+        </div>
+        <div class="container">
+            <div class="flex-container">
+                {{ $events->links() }}
+            </div>
+        </div>
+    </main>
+@stop
+
+
+<div id="content" class="site-content">
         @if(!is_null($title))
             <div class="entry-content">
                 <div class="top-content">

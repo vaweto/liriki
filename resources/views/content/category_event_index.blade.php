@@ -32,9 +32,12 @@
             @endif
                     <div class="col-2-md">
                         <h2><a href="/events/{{$event->slug}}">{{$event->title}}</a></h2>
+                        <p>{{ \Illuminate\Support\Str::limit(strip_tags($event->content), 100, $end='...') }}</p>
                     </div>
                     <div class="col-1-md">
-                        <img class="portrait" src="{{$event->image('cover','landscape')}}" alt="{{$event->title}}" />
+                        <a href="/events/{{$event->slug}}">
+                            <img class="portrait" src="{{$event->image('cover','landscape')}}" alt="{{$event->title}}" />
+                        </a>
                     </div>
                 </div>
             @empty

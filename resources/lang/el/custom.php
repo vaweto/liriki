@@ -28,6 +28,7 @@ return [
     'files' => 'Αρχεία',
     'audio' => 'Αρχείo Ήχου',
     'lirikos_notos_upper' => 'ΛΥΡΙΚΟΣ ΝΟΤΟΣ',
+    'date_created' => 'Ημ/νια Δημιουργίας',
 
 ];
 

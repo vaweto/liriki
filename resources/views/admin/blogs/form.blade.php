@@ -38,4 +38,10 @@
         'note' => 'Hint message`',
     ])
 
+    @formField('files', [
+    'name' => 'pdf_file',
+    'label' => 'Pdf file',
+    'note' => 'Add one file (per language)',
+    ])
+
 @stop

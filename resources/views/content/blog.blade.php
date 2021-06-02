@@ -21,6 +21,11 @@
 
                     {!! $blog->content !!}
 
+                    @if(!is_null($blog->file('pdf_file')))
+                        <p>
+                            <a href='{{$blog->file('pdf_file')}}' download>{{$blog->fileObject('pdf_file')->filename}}</a>
+                        </p>
+                    @endif
                 </div>
                 <div class="col-1-md event-info">
                     <div class="block">

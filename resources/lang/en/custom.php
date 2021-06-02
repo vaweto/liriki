@@ -17,4 +17,5 @@ return [
     'files' => 'Files',
     'audio' => 'Audio',
     'lirikos_notos_upper' => 'LIRIKOS NOTOS',
+    'date_created' => 'Created At',
 ];

@@ -32,6 +32,8 @@ class Blog extends Model implements Sortable
     public $slugAttributes = [
         'title',
     ];
+    public $filesParams = ['pdf_file']; // a list of file roles
+
 
     public $mediasParams = [
         'cover' => [

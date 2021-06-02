@@ -141,3 +141,7 @@ header .i18-btn-el {
         margin: 0 0 0 140px;
     }
 }
+
+.bg-siel {
+    background-color: rgba(129, 186, 243, 0.26)
+}

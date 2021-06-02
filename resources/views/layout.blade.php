@@ -25,7 +25,7 @@
 
     </div>
 
-    <script type='text/javascript' src={{asset("js/app.js")}}></script>
+    <script type='text/javascript' src="{{asset('js/app.js?v='.filemtime(public_path('js/app.js')))}}"></script>
 
     @yield('scripts')
 

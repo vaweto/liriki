@@ -7,8 +7,8 @@
 
 <link rel="shortcut icon" href={{asset("images/favicon.ico")}} />
 {{--<link href='https://fonts.googleapis.com/css?family=Open+Sans%7CMontserrat:400,700%7CRoboto:300,300i,400,400i,700,700i' rel='stylesheet' type='text/css'>--}}
-<link href={{asset('css/custom.css')}} rel="stylesheet">
-<link href={{asset('css/app.css')}} rel="stylesheet">
+<link href="{{asset('css/custom.css?v='.filemtime(public_path('css/custom.css')))}}" rel="stylesheet">
+<link href={{asset('css/app.css?v='.filemtime(public_path('css/app.css')))}} rel="stylesheet">
 
 
 

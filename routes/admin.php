@@ -20,3 +20,9 @@ Route::get('/clear-view', function() {
     return redirect()->back()->with('status','Views Cleared!');
 });
 
+Route::get('/storage-link', function() {
+    Artisan::call('storage:link');
+    return redirect()->back()->with('status','storage link created!');
+});
+
+

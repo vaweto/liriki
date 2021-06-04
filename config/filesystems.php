@@ -34,6 +34,11 @@ return [
             'driver' => 'local',
             'root' => storage_path('app'),
         ],
+        'uploads' => [
+            'driver' => 'local',
+            'root' => public_path(),
+            'url' => '/', // avoids default behavior of Laravel that adds "storage" to any local driver generated URL.
+        ],
 
         'public' => [
             'driver' => 'local',

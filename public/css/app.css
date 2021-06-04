@@ -293,9 +293,9 @@ footer .column:first-of-type img {
     max-width: 42%;
 }
 
-footer .column:last-of-type img:last-child {
-    margin-left: auto;
-}
+/*footer .column:last-of-type img:last-child {*/
+/*    margin-left: auto;*/
+/*}*/
 
 @media (min-width: 600px) {
     footer {
@@ -325,11 +325,11 @@ footer .column:last-of-type img:last-child {
     footer .column:last-of-type {
         -webkit-box-pack: justify;
         -ms-flex-pack: justify;
-        justify-content: space-between;
+        /*justify-content: space-between;*/
     }
-    footer .column:last-of-type img:last-child {
-        margin-left: 0;
-    }
+    /*footer .column:last-of-type img:last-child {*/
+    /*    margin-left: 0;*/
+    /*}*/
 }
 
 @media (min-width: 1200px) {

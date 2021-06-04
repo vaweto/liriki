@@ -111,4 +111,7 @@
 
         </ul>
     </div>
+    <div class="content menu-note" style="color: white; margin-top: 50px; font-size: 12px!important">
+        {!! $settings->byKey('sub_text') !!}
+    </div>
 </div>

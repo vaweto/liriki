@@ -19,6 +19,13 @@
         <div class="container">
             <div class="flex-container hero">
                 <div class="col-2-md align-right">
+                    <div style="margin-bottom: 20px">
+                        <video style="width: 100%; " id="vid" autoplay muted loop controls >
+                            <source src="{{asset('assets/public/LYRIKOS_NOTOS_VIDEO_FINAL.mp4')}}" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                    </div>
+
                     <p>
                         {!! $settings->byKey('home_text') !!}
                     </p>

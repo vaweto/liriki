@@ -5,7 +5,7 @@
 @stop
 
 @section('body-classes')
-    landmarks bg-yellow1
+    landmarks bg-siel
 @stop
 
 

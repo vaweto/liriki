@@ -40,6 +40,12 @@ class Page extends Model implements Sortable
                     'ratio' => 16 / 9,
                 ],
             ],
+            'landscape' => [
+                [
+                    'name' => 'landscape',
+                    'ratio' => 560 / 360,
+                ],
+            ],
             'mobile' => [
                 [
                     'name' => 'mobile',
@@ -67,5 +73,19 @@ class Page extends Model implements Sortable
                 ],
             ]
         ],
+        'gallery' => [
+            'landscape' => [
+                [
+                    'name' => 'landscape',
+                    'ratio' => 560 / 360,
+                ],
+            ],
+            'free' => [
+                [
+                    'name' => 'free',
+                    'ratio' => 0,
+                ],
+            ],
+        ]
     ];
 }

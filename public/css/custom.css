@@ -23,9 +23,11 @@ footer .column a img {
     max-height: inherit;
 }
 
-footer .column:last-of-type a:last-child {
-    margin-left: auto;
-}
+/*footer .column:last-of-type a:last-child {*/
+/*    margin-left: auto;*/
+/*}*/
+
+
 
 .embed-container
 {
@@ -101,6 +103,21 @@ header .i18-btn-el {
     .event .event-info {
         padding-top: 50px;
     }
+
+    .municipal-img{
+        justify-content: flex-end;
+        display: flex;
+
+    }
+
+}
+
+@media (min-width: 600px) {
+    .municipal-img{
+        justify-content: flex-end;
+        display: flex;
+
+    }
 }
 
 .span-brake {
@@ -153,6 +170,37 @@ header .i18-btn-el {
 .organization main img{
     width: 100%;
     height: auto;
+}
+
+.header_liriki_logo {
+    position: absolute;
+    left: 0px;
+    padding: 10px 0;
+    max-width: 100px;
+}
+
+.facebook_logo {
+    position: absolute;
+    left: 110px;
+    padding: 10px 0;
+    max-width: 50px;
+}
+
+.facebook_logo img{
+   width: 32px;
+}
+
+.header_liriki_logo img {
+    width: 100px;
+}
+
+.menu-note p {
+    font-size: 16px !important;
+    line-height: 16px;
+}
+
+.content.menu-note {
+    background-image: none!important;
 }
 
 

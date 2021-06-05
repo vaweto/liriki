@@ -82,6 +82,14 @@ header .i18-btn-el {
 }
 
 
+@media (max-width: 600px) {
+
+    main{
+        margin-top: 50px;
+    }
+}
+
+
 .big-font {
     font-size: 32px;
     line-height: 32px;

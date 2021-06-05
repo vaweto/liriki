@@ -1,5 +1,6 @@
 <div class="container">
-    <div class="column">
+    <div class="column municipals">
+        <span>Σύνδεσμος Δήμων Νότιας Αττικής</span>
         @if(! is_null($footerImg1) )
             <img src={{$footerImg1}} alt="">
         @endif

@@ -29,6 +29,7 @@ return [
     'audio' => 'Αρχείo Ήχου',
     'lirikos_notos_upper' => 'ΛΥΡΙΚΟΣ ΝΟΤΟΣ',
     'date_created' => 'Ημ/νια Δημιουργίας',
+    'follow_us_on_facebook' => 'Ακολουθήστε μας στο Facebook',
 
 ];
 

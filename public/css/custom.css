@@ -48,7 +48,7 @@ footer .column a img {
 
 header .i18-btn-el {
     position: absolute;
-    right: calc(2% + 35px)!important;
+    left: 0!important;
     bottom: -20px;
     color: #000;
     line-height: 14px;
@@ -67,7 +67,7 @@ header .i18-btn-el {
 .menu .i18-btn {
     position: absolute;
     bottom: -25px;
-    left: 25px!important;
+    right: 25px!important;
     font-size: 11px;
 }
 
@@ -87,6 +87,25 @@ header .i18-btn-el {
     main{
         margin-top: 100px;
     }
+
+    .municipals span{
+        font-size: 14px;
+    }
+
+    .municipals img {
+        max-height: 65px!important;
+        padding-right:10px;
+        padding-top:30px!important;
+    }
+}
+
+@media (max-width: 450px) {
+
+    .municipals img {
+        max-height: 40px!important;
+        padding-right:10px;
+        padding-top:30px!important;
+    }
 }
 
 
@@ -98,7 +117,7 @@ header .i18-btn-el {
 @media (max-width: 992px) {
     header .i18-btn-el {
         bottom: -40px;
-        right: calc(1.5% + 25px)!important;
+        left: 0!important;
         line-height: 27px;
         font-size: 19px;
         padding-right: 5px;
@@ -107,6 +126,14 @@ header .i18-btn-el {
     .big-font {
         font-size: 24px;
         line-height: 24px;
+    }
+
+    .facebook_logo {
+        bottom: -50px!important;
+    }
+
+    .facebook_logo img{
+        width: 23px!important;
     }
 
 
@@ -122,6 +149,14 @@ header .i18-btn-el {
 
     }
 
+    .header_liriki_logo {
+        max-width: 200px!important;
+    }
+
+    .header_liriki_logo img {
+        width: 200px!important;
+    }
+
 }
 
 @media (min-width: 600px) {
@@ -129,6 +164,16 @@ header .i18-btn-el {
         justify-content: flex-end;
         display: flex;
 
+    }
+
+    .municipals span{
+        font-size: 14px;
+    }
+
+    .municipals img {
+        max-height: 65px!important;
+        padding-right:10px;
+        padding-top:30px!important;
     }
 }
 
@@ -186,24 +231,24 @@ header .i18-btn-el {
 
 .header_liriki_logo {
     position: absolute;
-    left: 0px;
+    right: 0px;
     padding: 10px 0;
-    max-width: 100px;
+    max-width: 150px;
 }
 
 .facebook_logo {
     position: absolute;
-    left: 110px;
-    padding: 6px 0;
+    left: 0px;
     max-width: 50px;
+    bottom: -65px;
 }
 
 .facebook_logo img{
-   width: 40px;
+   width: 30px;
 }
 
 .header_liriki_logo img {
-    width: 100px;
+    width: 150px;
 }
 
 .menu-note p {
@@ -217,6 +262,25 @@ header .i18-btn-el {
 
 .menu li a {
     text-shadow:  0px 2px 3px rgba(0,0,0,0.34);
+}
+
+.menu-facebook {
+    padding: 3px 10px;
+}
+
+
+.municipals {
+    position: relative;
+}
+.municipals img {
+    padding-right:10px;
+    padding-top:20px;
+}
+
+.municipals span {
+    position: absolute;
+    left:0px;
+    top:0px;
 }
 
 

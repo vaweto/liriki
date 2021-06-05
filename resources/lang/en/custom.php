@@ -18,4 +18,5 @@ return [
     'audio' => 'Audio',
     'lirikos_notos_upper' => 'LIRIKOS NOTOS',
     'date_created' => 'Created At',
+    'follow_us_on_facebook' => 'Follow us on Facebook',
 ];

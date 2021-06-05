@@ -230,7 +230,7 @@ header .burger-btn img {
 
 header .i18-btn {
     position: absolute;
-    right: calc(2% + 8px);
+    left: calc(2% + 15px);
     bottom: -20px;
     color: #000;
     line-height: 14px;
@@ -256,8 +256,8 @@ header .i18-btn:hover, header .i18-btn:active, header .i18-btn:focus {
 
 @media (min-width: 992px) {
     header .i18-btn {
-        bottom: -40px;
-        right: calc(1.5% + 15px);
+        bottom: -32px;
+        left: calc(1.5% + 25px);
         line-height: 27px;
         font-size: 19px;
     }
@@ -348,7 +348,7 @@ footer .column:first-of-type img {
     z-index: 1;
     -webkit-transform: translate3d(0, 0, 0);
     transform: translate3d(0, 0, 0);
-    background: #b3d8ff;
+    background: darkslateblue;
     padding: 32px 32px;
     line-height: 30px;
     font-size: 20px;
@@ -487,11 +487,11 @@ footer .column:first-of-type img {
 }
 
 .menu .bg-color12 {
-    color: #8080FF!important;
+    color: #a080ff!important;
 }
 
 .menu .bg-color12:hover, .menu .bg-color12:active, .menu .bg-color12:focus {
-    color: #8080FF;
+    color: #a080ff;
 }
 
 .menu .bg-color13 {

@@ -6,7 +6,8 @@
             </button>
 {{--            <a class="i18-btn i18-btn-el" href="{{ route('lang.switch', 'el') }}">ΕΛ  /</a> <a class="i18-btn" href="{{ route('lang.switch', 'en') }}">ΕΝ</a>--}}
         </div>
-        <ul>
+
+        <ul >
             <li><a href="/" class="bg-color1">{{__('custom.lirikos_notos_upper')}}</a></li>
             @php
                 $count = 2

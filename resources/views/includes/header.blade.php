@@ -15,7 +15,7 @@
     </div>
     <div style="text-align: right">
         <a class="i18-btn i18-btn-el" href="{{ route('lang.switch', 'el') }}">ΕΛ /</a> <a class="i18-btn" href="{{ route('lang.switch', 'en') }}">ΕΝ</a>
-        <a class="facebook_logo" href="https://www.facebook.com/lirikosnotos" ><img src="{{asset("images/facebook.png")}}" alt="facebook" /></a>
+        <a class="facebook_logo" target="_blank" href="https://www.facebook.com/lirikosnotos" ><img src="{{asset("images/facebook.png")}}" alt="facebook" /></a>
         <a class="header_liriki_logo" href="https://www.nationalopera.gr/nea-anakoinoseis/item/3765-to-festival-lyrikos-notos-erxetai-stis-18-19-20-iouniou-2021" target="_blank"><img  src={{$mainFooterLogo}} alt="Λυρικη-Σκηνη" ></a>
     </div>
 

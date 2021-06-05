@@ -2,7 +2,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <meta name="author" content="Lirikos Notos" />
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-
+<meta name="google-site-verification" content="yOpW_IlCn4cdr8DynGDXc3HvyBeVqeHZh5XKMhT1dg4" />
 
 
 <link rel="shortcut icon" href={{asset("images/favicon.ico")}} />

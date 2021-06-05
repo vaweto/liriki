@@ -245,7 +245,7 @@ header .i18-btn:hover, header .i18-btn:active, header .i18-btn:focus {
 
 @media (min-width: 600px) {
     header {
-        margin-bottom: 14%;
+        margin-bottom: 10%;
     }
     header .column {
         -webkit-box-flex: 0;

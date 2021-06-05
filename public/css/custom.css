@@ -75,6 +75,10 @@ header .i18-btn-el {
     .menu .i18-btn {
         bottom: -32px!important;
     }
+
+    main{
+        margin-top: 50px;
+    }
 }
 
 
@@ -182,12 +186,12 @@ header .i18-btn-el {
 .facebook_logo {
     position: absolute;
     left: 110px;
-    padding: 10px 0;
+    padding: 6px 0;
     max-width: 50px;
 }
 
 .facebook_logo img{
-   width: 32px;
+   width: 40px;
 }
 
 .header_liriki_logo img {

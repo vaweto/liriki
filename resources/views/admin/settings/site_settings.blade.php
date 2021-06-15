@@ -8,11 +8,15 @@
         'textLimit' => '80'
     ])
 
-    @formField('input', [
+
+    @formField('wysiwyg', [
         'translated' => true,
-        'label' => 'Home text',
         'name' => 'home_text',
-        'textLimit' => '80'
+        'label' => 'Home text',
+        'toolbarOptions' => ['list-ordered', 'list-unordered'],
+        'placeholder' => 'Case study text',
+        'maxlength' => 200,
+        'note' => 'Hint message',
     ])
 
     @formField('wysiwyg', [

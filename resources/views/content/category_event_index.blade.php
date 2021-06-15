@@ -32,7 +32,7 @@
             @endif
                     <div class="col-2-md">
                         <h2><a href="/events/{{$event->slug}}">{{$event->title}}</a></h2>
-                        <p>{{ \Illuminate\Support\Str::limit($event->content, 250, $end='...') }}</p>
+                        {!!  \Illuminate\Support\Str::limit($event->content, 250, $end='...') !!}
                     </div>
                     <div class="col-1-md">
                         <a href="/events/{{$event->slug}}">

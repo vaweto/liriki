@@ -9,6 +9,7 @@ use Illuminate\Support\Collection;
 use Illuminate\Support\Facades\App;
 use Illuminate\Support\Facades\Session;
 
+
 class EventController extends Controller
 {
     /**
@@ -65,12 +66,16 @@ class EventController extends Controller
            $item->blocks->map(function($eventDate) use (&$item, &$eventsByDate){
 
                $eventDate->event = $item;
-               $eventDate->eventDate =  Carbon::createFromFormat('Y-m-d H:i',$eventDate->content['event_date']);
+               $eventDate->eventDate = (!empty($eventDate->content['event_date'])) ? Carbon::createFromFormat('Y-m-d H:i',$eventDate->content['event_date']) : null;
                $eventDate->place =  (isset($eventDate->content['place'])) ? $eventDate->content['place'] : '';
-               $eventDate->eventTimestamp =  Carbon::createFromFormat('Y-m-d H:i',$eventDate->content['event_date'])->timestamp;
-               $eventDate->passDate =  (Carbon::createFromFormat('Y-m-d H:i',$eventDate->content['event_date']) < Carbon::now()->addDay()) ? true : false;
+               $eventDate->eventTimestamp =  (!empty($eventDate->content['event_date'])) ? Carbon::createFromFormat('Y-m-d H:i',$eventDate->content['event_date'])->timestamp : null;
+               $eventDate->passDate =  (!empty($eventDate->content['event_date']) && Carbon::createFromFormat('Y-m-d H:i',$eventDate->content['event_date']) < Carbon::now()->addDay()) ? true : false;
                $eventsByDate->push($eventDate);
            });
+        });
+
+        $eventsByDate = $eventsByDate->reject(function ($item) use ($year) {
+            return $item->eventDate !== null;
         });
 
         if(! is_null($year)) {

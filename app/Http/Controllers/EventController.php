@@ -75,7 +75,7 @@ class EventController extends Controller
         });
 
         $eventsByDate = $eventsByDate->reject(function ($item) use ($year) {
-            return $item->eventDate !== null;
+            return $item->eventDate === null;
         });
 
         if(! is_null($year)) {

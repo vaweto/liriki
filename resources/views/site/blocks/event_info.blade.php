@@ -1,3 +1,4 @@
+@if(!empty($block->input('event_date')))
 @php
 $date = \Carbon\Carbon::createFromFormat('Y-m-d H:i',$block->input('event_date'));
 
@@ -6,3 +7,4 @@ $date = \Carbon\Carbon::createFromFormat('Y-m-d H:i',$block->input('event_date')
 <span class="span-brake">{{ $date->format('d-m-Y H:i') }}</span>
 <span class="span-brake">{!! $block->translatedInput('place') !!}</span>
 <br>
+@endif

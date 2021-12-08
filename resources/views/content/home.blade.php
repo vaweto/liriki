@@ -24,7 +24,7 @@
 {{--                            <source src="{{asset('assets/public/LYRIKOS_NOTOS_VIDEO_FINAL.mp4')}}" type="video/mp4">--}}
 {{--                            Your browser does not support the video tag.--}}
 {{--                        </video>--}}
-                        <img width="100%" height="auto" src="{{asset('assets/public/LYRIKOS_NOTOS_FBCOVER-01.jpg')}}">
+                        <img width="100%" height="auto" src="{{asset('assets/public/LYRIKOS_NOTOS_FBCOVER.jpg')}}">
                     </div>
 
                     <p>

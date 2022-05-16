@@ -54,8 +54,8 @@ class EventRepository extends ModuleRepository
         return $this->model
             ->published()
             ->WithActiveTranslations()
-            ->orderBy('created_at', 'ASC')
             ->where('category', $slug)
+            ->orderBy('created_at', 'ASC')
             ->paginate(5);
 
     }

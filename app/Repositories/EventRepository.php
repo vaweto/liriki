@@ -28,7 +28,7 @@ class EventRepository extends ModuleRepository
         return $this->model
             ->published()
             ->WithActiveTranslations()
-            ->orderBy('created_at', 'ASC')
+            ->orderBy('created_at', 'DESC')
             ->limit($limit)
             ->get();
     }
@@ -41,7 +41,7 @@ class EventRepository extends ModuleRepository
         return $this->model
             ->published()
             ->WithActiveTranslations()
-            ->orderBy('created_at', 'ASC')
+            ->orderBy('created_at', 'DESC')
             ->paginate(5);
     }
 

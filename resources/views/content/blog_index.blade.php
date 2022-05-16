@@ -20,7 +20,7 @@
                 @endif
                         <div class="col-2-md">
                             <h2> <a href="/blog/{{$blog->slug}}">{{$blog->title}}</a></h2>
-                            <p>{!!  \Illuminate\Support\Str::limit($blog->content, 150, $end='...') !!}</p>
+                            <p>{!!  strip_tags(\Illuminate\Support\Str::limit($blog->content, 150, $end='...') ) !!}</p>
                         </div>
                         <div class="col-1-md">
                             <a href="/blog/{{$blog->slug}}">

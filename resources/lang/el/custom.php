@@ -14,7 +14,7 @@ return [
     */
 
     'music_tales' => 'Μουσικά Παραμύθια',
-    'music_events' => 'Μουσικές Παραστάσεις',
+    'music_events' => 'Συναυλίες',
     'big_productions' => 'Μεγάλες Παραγωγές ΕΛΣ',
     'booklovers_point' => "Booklover's Point",
     'cultural_bus' => 'Πολιτιστικό Λεωφορείο',

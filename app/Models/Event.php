@@ -15,9 +15,9 @@ class Event extends Model
     use HasTranslation, HasSlug, HasMedias, HasFiles, HasBlocks, HasUrl;
 
     const CATEGORIES = [
-        'music_tales',
-        'music_events',
         'big_productions',
+        'music_events',
+        'music_tales',
         'booklovers_point',
         'cultural_bus'
     ];

@@ -25,7 +25,7 @@ class BlogRepository extends ModuleRepository
         return $this->model
             ->published()
             ->WithActiveTranslations()
-            ->orderBy('created_at')
+            ->orderBy('created_at','desc')
             ->paginate(6);
     }
 }
